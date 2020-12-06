@@ -1,8 +1,8 @@
 ---
+layout: splash
 permalink: /
-title: "Prasanna Venkatesan K S"
+title: "Portfolio"
 excerpt: "About me"
-author_profile: false
 redirect_from: 
   - /about/
   - /about.html
