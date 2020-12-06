@@ -224,7 +224,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: projects
     values:
       layout: talk
       author_profile: true
