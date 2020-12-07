@@ -8,9 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a Robotics Researcher in the field of Humanoid and Legged Locomotion. I have completed my Bachelors of Engineering in Electronics and Communication Engineering from PES University, Bengaluru.
+<img src="/images/welcomePic.jpg" alt="Welcome" style="width:1920px;height:720px"/>
 
-![Welcome!](/images/welcomePic.jpg)
+Welcome to my Website. I am a Robotics Researcher and my work focuses in the field of Legged Locomotion and Motion Planning. My major field of interest is in Humanoid Robots and I work on prinicples of bipedal locomotion. I work on other fields like motion planning. You can find me at: 
+* <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> [{{site.author.email}}](mailto:{{site.author.email}})
+* <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> [Google Scholar]({{ site.author.googlescholar }})
+* <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Github](https://www.github.com/{{ site.author.github }})
+* <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> [Instagram](https://www.instagram.com/{{ site.author.instagram }})
 
+Please use the tabs on top of the page to know more about my work.
 
 
