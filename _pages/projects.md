@@ -5,9 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  WELCOME TO PRPOJECTS</a>.</u>
-{% endif %}
+  WELCOME TO PROJECTS
 
 {% include base_path %}
 

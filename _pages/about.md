@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am Robotics Researcher in the field of Humanoid and Legged Locomotion. I have completed my Bachelors of Engineering in Electronics and Communication Engineering from PES University, Bengaluru.
+I am a Robotics Researcher in the field of Humanoid and Legged Locomotion. I have completed my Bachelors of Engineering in Electronics and Communication Engineering from PES University, Bengaluru.
+
+![Welcome!](/images/welcomePic.jpg)
+
 
 
