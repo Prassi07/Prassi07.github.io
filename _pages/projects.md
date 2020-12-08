@@ -9,3 +9,7 @@ author_profile: true
 
 WELCOME TO PROJECTS
 
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
