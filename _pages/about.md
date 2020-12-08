@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/welcomePic.jpg" alt="Welcome" style="width:1920px;height:720px"/>
+<img src="/images/welcomePic.jpg" alt="Welcome" />
 
 Welcome to my Website. I am a Robotics Researcher and my work focuses in the field of Legged Locomotion and Motion Planning. My major field of interest is in Humanoid Robots and I work on prinicples of bipedal locomotion. I work on other fields like motion planning. You can find me at: 
 * <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> [{{site.author.email}}](mailto:{{site.author.email}})
