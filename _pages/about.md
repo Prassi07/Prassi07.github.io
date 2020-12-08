@@ -10,7 +10,8 @@ redirect_from:
 
 <img src="/images/welcomePic.jpg" alt="Welcome" />
 
-Welcome to my Website. I am a Robotics Researcher and my work focuses in the field of Legged Locomotion and Motion Planning. My major field of interest is in Humanoid Robots and I work on prinicples of bipedal locomotion. I work on other fields like motion planning. You can find me at: 
+Welcome to my Website. I am a Robotics Researcher and my work focuses in the field of Legged Locomotion and Motion Planning. My major field of interest is in Humanoid Robots and I work on prinicples of bipedal locomotion. My other research fields also include motion planning and human-robot interaction. You can find me at: 
+
 * <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> [{{site.author.email}}](mailto:{{site.author.email}})
 * <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> [Google Scholar]({{ site.author.googlescholar }})
 * <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Github](https://www.github.com/{{ site.author.github }})

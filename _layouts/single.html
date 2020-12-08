@@ -44,7 +44,7 @@ layout: default
         
         {% if page.date and page.location and page.contenttype=='publication' %}
           <p><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}
-          <i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{page.location}}</p>
+           <i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{page.location}}</p>
         {% endif %}
         {% if page.citation and page.paperurl %}
           <p>Citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
