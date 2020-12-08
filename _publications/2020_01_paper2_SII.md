@@ -7,7 +7,7 @@ date: 2020-01-12
 venue: ' IEEE/SICE International Symposium on System Integration (SII)'
 paperurl: ''
 location: ' Honolulu, HI, USA'
-citation: '<b>Prasanna Venkatesan K S</b>, Prajwal Rajendra Mahendrakar and Rajasekar Mohan, “Solving inverse kinematics using geometric analysis for gait generation in small-sized humanoid robots,” in Proc. IEEE/SICE International Symposium on System Integration(SII), Honolulu, Hawaii, USA, 12th-15th  January 2020, pp. 384–389'
+citation: '<b>Prasanna Venkatesan K S</b>, Prajwal Rajendra Mahendrakar and Rajasekar Mohan, &quot;Solving inverse kinematics using geometric analysis for gait generation in small-sized humanoid robots&quot;, <i>in Proc. IEEE/SICE International Symposium on System Integration(SII)</i>, Honolulu, Hawaii, USA, 12th-15th  January 2020, pp. 384–389'
 contenttype: 'publication'
 ---
 
