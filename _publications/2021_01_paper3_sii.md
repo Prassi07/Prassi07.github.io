@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/curved-path-slip-sii2021
 excerpt: 'This paper presents a method for generating curved path sequences in a humanoid robot with a deficient degree of freedom (DOF)'
 date: 2021-01-14
-venue: ' IEEE/SICE International Symposium on System Integration (SII)'
+venue: '2021 IEEE/SICE International Symposium on System Integration (SII)'
 paperurl: ''
 location: 'Iwaki, Fukushima, Japan'
 citation: '<b>Prasanna Venkatesan K S </b> and Prajwal Rajendra Mahendrakar, &quot;Generating curved path walking gaits for biped robots with deficient degrees of freedom&quot;, <i>Accepted as contributed paper at the 2021 IEEE/SICE International Symposium on System Integration(SII)</i>, Iwaki, Fukushima, Japan, 11th-14th January 2021, 2019'
