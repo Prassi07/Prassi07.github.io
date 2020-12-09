@@ -7,7 +7,7 @@ date: 2021-01-14
 venue: '2021 IEEE/SICE International Symposium on System Integration (SII)'
 paperurl: ''
 location: 'Iwaki, Fukushima, Japan'
-citation: '<b>Prasanna Venkatesan K S </b> and Prajwal Rajendra Mahendrakar, &quot;Generating curved path walking gaits for biped robots with deficient degrees of freedom&quot;, <i>Accepted as contributed paper at the 2021 IEEE/SICE International Symposium on System Integration(SII)</i>, Iwaki, Fukushima, Japan, 11th-14th January 2021, 2019'
+citation: '<b>Prasanna Venkatesan K S </b> and Prajwal Rajendra Mahendrakar, &quot;Generating curved path walking gaits for biped robots with deficient degrees of freedom&quot;, <i>Accepted as contributed paper at the 2021 IEEE/SICE International Symposium on System Integration(SII)</i>, Iwaki, Fukushima, Japan, 11th-14th January 2021'
 contenttype: 'publication'
 ---
 
