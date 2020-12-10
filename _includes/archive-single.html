@@ -52,8 +52,11 @@
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    {% elsif post.excerpt and site.read_more == 'enabled' and post.collection != 'projects' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<a href="{{ base_path }}{{ post.url }}" rel="permalink">.. read more</a></p></p>
+    {% elsif post.excerpt and site.read_more == 'enabled' and post.collection == 'projects' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<a href="{{ base_path }}{{ post.url }}" rel="permalink">.. read more</a></p></p>
+    <img src="{{post.imagePath}}" width="500">
     {% endif %}
     
     {% if post.citation and post.paperurl %}
