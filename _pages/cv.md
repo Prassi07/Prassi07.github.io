@@ -16,24 +16,19 @@ Education
   * Electronics and Communication Engineering (Major)
   * Computer Science Engineering (Minor)
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
+* Summer 2018 : Research Mentor, Microsoft Innovation Lab, PES University
+  * Guided two teams of interns in the field of mobile robotics
+  * A robot which can predict the trajectory of a ball thrown towards it and catch it using an arm built. A third-person camera is used as input
+  * A Visual slam which labels objects while mapping is done to capture more labelled map information for navigation purposes
+* Summer 2017 : Research Intern, Microsoft Innovation Lab, PES University
+  * Built a mobile robot, 'Explodroid' equipped with the Xbox Kinect Camera and an Intel NUC as the processor
+  * Peform Slam using the gmapping package and navigate autonomously using the Adaptive Monte-Carlo Localization Technique
+  
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
