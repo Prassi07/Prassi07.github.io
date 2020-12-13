@@ -5,6 +5,7 @@ imagePath: "/images/tonyHumanoid.png"
 permalink: "/projects/tonyhumanoid"
 collection: projects
 youtubeId: "9P8o5eNoTcs"
+---
 
 Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total – 5 per leg, 3 per arm, 1 in neck. It uses dual servo motors with 17kgcm torque. The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around.
 <img style="float: right;" src="/images/tony_2jpg" alt="Welcome" />
