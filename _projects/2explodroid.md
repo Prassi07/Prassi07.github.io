@@ -8,9 +8,9 @@ youtubeId: "bSsTSEbaySQ"
 ---
 
 This robot was built as part of the research work conducted in Microsoft Innovation Lab as interns. The robot was inspired by the [TurtleBot](https://www.turtlebot.com/), mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
-<img src="/images/explodroid.jpg" />
+<img src="/images/explodroid.JPG" />
 
-<img style="float: right; width: 350px" src="/images/exploRenders.jpg" />
+<img style="float: right; width: 350px" src="/images/exploRenders.png" />
 
 * The robot uses a xbox Kinect RGB-D camera to sense the environment.
 * The robot using differential drive mechanism to move around. The motors are equipped with encoders to provide postion feedback.
