@@ -7,8 +7,17 @@ collection: projects
 youtubeId: "bSsTSEbaySQ"
 ---
 
-* Equipped with Xbox Kinect and Intel NUC® to perform SLAM.
-* Successfully implemented gmapping package and performed SLAM using ROS
+This robot was built as part of the research work conducted in Microsoft Innovation Lab as interns. The robot was inspired by the [TurtleBot](https://www.turtlebot.com/), mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
+<img src="/images/explodroid.jpg" />
+
+<img style="float: right; width: 350px" src="/images/exploRenders.jpg" />
+
+* The robot uses a xbox Kinect RGB-D camera to sense the environment.
+* The robot using differential drive mechanism to move around. The motors are equipped with encoders to provide postion feedback.
+* The robot uses an Intel NUC as the on board computer which runs ROS and performs SLAM
+* The Kinect camera provides point cloud data which is converted to laserscan data which is then used by the gmapping algorithm as input for SLAM
 * Performed autonomous navigation on an existing map using Adaptive Monte Carlo Localization
+
+You can find the ROS packages and the dxf files for the chasis on [github](https://github.com/Prassi07/ExploDroid_Package)
 
 {% include youtubePlayer.html id=page.youtubeId %}

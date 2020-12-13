@@ -7,8 +7,9 @@ collection: projects
 youtubeId: "9P8o5eNoTcs"
 ---
 <img style="float: right; width: 350px" src="/images/tony_2.jpg" />
-* Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total.
-* It uses dual servo motors with 17kgcm torque. 
+* Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. 
+* This project was completed under the guidance of [Prof. Rajasekar Mohan](https://faculty.pes.edu/p10125)
+* It uses dual shaft servo motors with 17kgcm torque. 
 * The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around.
 * The walk trajectories are obtained using the 3-D linear inverted pendulum model. 
 * A geometric solution is devised to calculate the inverse kinematics for the robot. This is the premise for this [paper](https://prassi07.github.io/publication/inv-kine-geometric-sii2020)
