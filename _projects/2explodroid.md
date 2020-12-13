@@ -20,6 +20,6 @@ This robot was built as part of the research work conducted in Microsoft Innovat
 
 You can find the ROS packages and the dxf files for the chasis on [github](https://github.com/Prassi07/ExploDroid_Package). This project was featured in an article written by [EdexLive](https://www.edexlive.com/live-story/2017/aug/30/these-1040.html)
 
-The team consisted of three interns including me, [Manoj Surya K](https://sites.google.com/view/manojsuryakashi) and [Tarun Sriram]()
+The team consisted of three interns including me, [Manoj Surya K](https://sites.google.com/view/manojsuryakashi) and [Tarun Sriram](https://www.linkedin.com/in/tarun-sriram-3b584b177/)
 
 {% include youtubePlayer.html id=page.youtubeId %}
