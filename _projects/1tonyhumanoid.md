@@ -6,23 +6,25 @@ permalink: "/projects/tonyhumanoid"
 collection: projects
 youtubeId: "9P8o5eNoTcs"
 ---
+<img style="float: right; width: 350px" src="/images/tony_2.jpg" />
+* Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total.
+* It uses dual servo motors with 17kgcm torque. 
+* The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around.
+* The walk trajectories are obtained using the 3-D linear inverted pendulum model. 
+* A geometric solution is devised to calculate the inverse kinematics for the robot. This is the premise for this [paper](https://prassi07.github.io/publication/inv-kine-geometric-sii2020)
+* Since this robot does not have a yaw degree of freedom, turning in place is achieved using the slip phenonmenon
+* A curved path walking gait algroithm is devised using this slip factor and is successfully achieved in the [paper](https://prassi07.github.io/publication/curved-path-slip-sii2021)
 
-Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total – 5 per leg, 3 per arm, 1 in neck. It uses dual servo motors with 17kgcm torque. The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around.
-<img style="float: right;" src="/images/tony_2jpg" alt="Welcome" />
+### Bot Specs: 
 
-#### Bot Specs: 
-|--------------------|-----|-------|
-| Degrees of Freedom | Leg | 5 per Leg |
-| 	       			 | Arms| 3 per Arm |
-| 					 | Head|  1 |
-|					 | Total | 10 + 6 + 1 = 17 |
-|--------------------|-------|-----------------|
-| Dimensions		 | Height| 365mm|
-|					 | Weight| 2 Kilograms|
-|--------------------|-------|------------|
-| Communication      |Wired Serial| Bluetooth Serial|
-|--------------------|---------|---------|
+| <b>Degrees of Freedom</b> | Leg   | 5 per Leg(Hip Roll and Pitch, Knee Pitch, Ankle roll and pitch)      |
+|                   | Arms  | 3 per Arm       |
+|                   | Head  | 1               |
+|                    | Total | 10 + 6 + 1 = 17 |
+| <b>Dimensions</b>		 | Height | 365mm|
+|					 | Weight | 2 Kilograms|
+| <b>Communication</b>      | Wired Serial | Bluetooth Serial|
 
-* Devised an independent Inverse Kinematics solution based on geometric approach
+A video demonstrating all the basic gaits implemented on the robot is shown below.
 
 {% include youtubePlayer.html id=page.youtubeId %}
