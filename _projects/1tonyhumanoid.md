@@ -26,6 +26,7 @@ youtubeId: "9P8o5eNoTcs"
 |					 | Weight | 2 Kilograms|
 | <b>Communication</b>      | Wired Serial | Bluetooth Serial|
 
+The team consisted of two students including me and  [Prajwal Rajendra Mahendrakar](https://scholar.google.com/citations?user=wZH3lt8AAAAJ&hl=en)
 A video demonstrating all the basic gaits implemented on the robot is shown below.
 
 {% include youtubePlayer.html id=page.youtubeId %}

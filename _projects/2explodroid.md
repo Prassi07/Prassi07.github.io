@@ -18,6 +18,8 @@ This robot was built as part of the research work conducted in Microsoft Innovat
 * The Kinect camera provides point cloud data which is converted to laserscan data which is then used by the gmapping algorithm as input for SLAM
 * Performed autonomous navigation on an existing map using Adaptive Monte Carlo Localization
 
-You can find the ROS packages and the dxf files for the chasis on [github](https://github.com/Prassi07/ExploDroid_Package)
+You can find the ROS packages and the dxf files for the chasis on [github](https://github.com/Prassi07/ExploDroid_Package). This project was featured in an article written by [EdexLive](https://www.edexlive.com/live-story/2017/aug/30/these-1040.html)
+
+The team consisted of three interns including me, [Manoj Surya K](https://sites.google.com/view/manojsuryakashi) and [Tarun Sriram]()
 
 {% include youtubePlayer.html id=page.youtubeId %}
