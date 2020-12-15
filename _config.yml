@@ -58,7 +58,7 @@ yandex_site_verification :
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "custom" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "G-VZ1C3EPCHC"
 
