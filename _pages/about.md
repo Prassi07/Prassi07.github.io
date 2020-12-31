@@ -16,7 +16,7 @@ Welcome to my Website. I am a Robotics Researcher and my work focuses in the fie
 * <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Github](https://www.github.com/{{ site.author.github }})
 * <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> [Instagram](https://www.instagram.com/{{ site.author.instagram }})
 
-I also run a YouTube Channel where I make easy tutorials on Robotics and how to build robots. You can view that here:
+I also run a YouTube Channel where I create simple tutorial videos on Robotics and Robot Building. You can view that here:
 * <i class="fab fa-youtube" aria-hidden="true"></i> [All About Robots]({{site.author.youtube}})
 
 Please use the tabs on top of the page to know more about my work.
