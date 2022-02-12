@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaKettavarapalyam_CV.pdf)
+<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf)
 
 Education
 ======
