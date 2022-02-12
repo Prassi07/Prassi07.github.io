@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Prasanna Venkatesan K S"
+title                    : "Prasanna K. Sriganesh"
 title_separator          : "-"
-name                     : &name "Prasanna Venkatesan K S"
+name                     : &name "Prasanna K. Sriganesh"
 description              : &description "personal description"
 url                      : https://prassi07.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -65,7 +65,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Prasanna Venkatesan"
+  name             : "Prasanna Sriganesh"
   avatar           : "profile.png"
   bio              : 
   location         : 
