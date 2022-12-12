@@ -10,7 +10,13 @@ redirect_from:
 {% include base_path %}
 <i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf)
 
-Education
+<object data="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<!-- Education
 ======
 * B.Tech, PES University, Bengaluru, India
   * Electronics and Communication Engineering (Major)
@@ -31,4 +37,4 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+   -->

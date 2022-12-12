@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Prasanna K. Sriganesh"
+title                    : "Prasanna Sriganesh"
 title_separator          : "-"
-name                     : &name "Prasanna K. Sriganesh"
+name                     : &name "Prasanna Sriganesh"
 description              : &description "personal description"
 url                      : https://prassi07.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
