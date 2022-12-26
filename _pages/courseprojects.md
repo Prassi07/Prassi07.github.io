@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: Independent Projects
-permalink: /projects/
+title: Course Projects
+permalink: /courseprojects/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.projects %}
+<!-- {% for post in site.courseprojects %}
   {% include archive-single-project.html %}
-{% endfor %}
+{% endfor %} -->
 

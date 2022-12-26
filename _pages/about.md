@@ -10,14 +10,12 @@ redirect_from:
 
 <img style="float: right; width: 450px" src="/images/welcomePic.jpg" alt="Welcome" />
 
-I am a Masters student at the Robotics Institute, Carnegie Mellon University. I work with Dr. Matthew Travers and my work focuses on planning for hetergeneous robot fleets. My other research fields also include locomotion and control for legged robots. You can find me at: 
-* <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> [{{site.author.email}}](mailto:{{site.author.email}})
-* <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> [Google Scholar]({{ site.author.googlescholar }})
-* <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Github](https://www.github.com/{{ site.author.github }})
+I am a Masters student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) and my work focuses on planning for hetergeneous robot fleets. My other research fields also include locomotion and control for legged robots.
 
-I also run a YouTube Channel where I create simple tutorial videos on Robotics and Robot Building(Currently Inactive). You can view that here:
-* <i class="fab fa-youtube" aria-hidden="true"></i> [All About Robots]({{site.author.youtube}})
+/ <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> [Email](mailto:{{site.author.email}}) / <i class="fa fa-fw fa-file" aria-hidden="true"></i> [CV]({{site.author.cv}}) / <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> [Google Scholar]({{ site.author.googlescholar }}) / <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Github](https://www.github.com/{{ site.author.github }}) / 
 
-Please use the tabs on top of the page to know more about my work.
+Previously, I worked under [Prof. Rajasekar Mohan](https://faculty.pes.edu/p10125) in the Microsoft Innovation Lab at PES University, Bengaluru. 
+ 
+I also used to run a YouTube Channel called [All About Robots]({{site.author.youtube}}) where I create simple tutorial videos on Robotics and Robot Building which is currently inactive.
 
 
