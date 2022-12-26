@@ -16,6 +16,6 @@ I am a Masters student at the Robotics Institute, Carnegie Mellon University. I 
 
 Previously, I worked under [Prof. Rajasekar Mohan](https://faculty.pes.edu/p10125) in the Microsoft Innovation Lab at PES University, Bengaluru. 
  
-I also used to run a YouTube Channel called [All About Robots]({{site.author.youtube}}) where I create simple tutorial videos on Robotics and Robot Building which is currently inactive.
+I was also running a YouTube Channel, [All About Robots]({{site.author.youtube}}) where I used to create simple tutorial videos on Robotics and Robot Building (currently inactive).
 
 

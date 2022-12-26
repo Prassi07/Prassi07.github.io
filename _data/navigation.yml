@@ -6,6 +6,6 @@ main:
   - title: "Indepedent Projects"
     url: /projects/    
 
-  - title: "Course Projects"
-    url: /courseprojects/
+  # - title: "Course Projects"
+  #   url: /courseprojects/
     
