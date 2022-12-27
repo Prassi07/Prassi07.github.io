@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf)
+<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf) -->
 
 <!-- <object data="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">
