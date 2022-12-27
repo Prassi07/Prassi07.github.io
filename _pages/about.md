@@ -1,14 +1,16 @@
 ---
-layout: splash
+layout: about
 permalink: /
 title: "Portfolio"
 excerpt: "About me"
 redirect_from: 
   - /about/
   - /about.html
+profile:
+  image: welcomePic.jpg
 ---
 
-<img style="float: right; width: 450px" src="/images/welcomePic.jpg" alt="Welcome" />
+<!-- <div style="float: right;"> <img style="width: 450px" src="/images/welcomePic.jpg" alt="Welcome" > </div> -->
 
 I am a Masters student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) and my work focuses on planning for hetergeneous robot fleets. My other research fields also include locomotion and control for legged robots.
 
