@@ -243,7 +243,7 @@ figure {
 }
 
 .mini_pic{
-  width: 125px;
+  width: 175px;
 }
 
 .publication_mini{
@@ -252,6 +252,35 @@ figure {
   margin-left: 1em;
   
   h3{
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0%;
+    color: $darkest-gray;
+    width: 100%;
+  }
+
+  .clearfix{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  p{
+    margin-top: 0%;
+    margin-left: 0.5%;
+    margin-bottom: 0%;
+  }
+}
+
+.publication_pic{
+  width: 300px;
+}
+
+.publications{
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  
+  h2{
     margin-top: 0.5%;
     margin-left: 0.5%;
     margin-bottom: 0%;
@@ -283,6 +312,9 @@ figure {
     margin-top: 1vw;
   }
   .mini_pic{
+    max-width: 90vw;
+  }
+  .publication_pic{
     max-width: 90vw;
   }
 }

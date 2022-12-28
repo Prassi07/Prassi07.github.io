@@ -5,7 +5,7 @@ conference: '2021 IEEE/SICE International Symposium on System Integration (SII)'
 
 paperurl: 'https://ieeexplore.ieee.org/document/9382698'
 youtubeId: 'RA_rMM8NS0Q'
-image: ''
+image: '/images/tony_curvedpath.jpeg'
 
 location: 'Iwaki, Fukushima, Japan'
 date: 2021-01-14

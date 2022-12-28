@@ -5,7 +5,7 @@ conference: 'arXiv 2022'
 
 paperurl: 'https://arxiv.org/abs/2211.00610'
 youtubeId: 'Q9_S8MLfRUA'
-image: ''
+image: '/images/staircase_icra.jpg'
 
 # location: 'Iwaki, Fukushima, Japan'
 # date: 2021-01-14
