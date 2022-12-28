@@ -1,7 +1,7 @@
 ---
 title: "Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots"
 authors: '<b>Prasanna Sriganesh</b>, Namya Bagree, Bhaskar Vundurthy and Matthew Travers'
-venue: 'arXiv 2022'
+conference: 'arXiv 2022'
 
 paperurl: 'https://arxiv.org/abs/2211.00610'
 youtubeId: 'Q9_S8MLfRUA'

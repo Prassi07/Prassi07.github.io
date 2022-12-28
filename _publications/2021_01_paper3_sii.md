@@ -1,7 +1,7 @@
 ---
 title: "Generating Curved Path Walking Gaits for Biped Robots with Deficient Degrees of Freedom"
 authors: '<b>Prasanna Sriganesh</b> and Prajwal Rajendra Mahendrakar'
-venue: '2021 IEEE/SICE International Symposium on System Integration (SII)'
+conference: '2021 IEEE/SICE International Symposium on System Integration (SII)'
 
 paperurl: 'https://ieeexplore.ieee.org/document/9382698'
 youtubeId: 'RA_rMM8NS0Q'

@@ -1,7 +1,7 @@
 ---
 title: "Solving Inverse Kinematics using Geometric Analysis for Gait Generation in Small-Sized Humanoid Robots"
 authors: '<b>Prasanna Sriganesh</b>, Prajwal Rajendra Mahendrakar and Rajasekar Mohan'
-venue: ' 2020 IEEE/SICE International Symposium on System Integration (SII)'
+conference: ' 2020 IEEE/SICE International Symposium on System Integration (SII)'
 
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9025944'
 # youtubeId: 
