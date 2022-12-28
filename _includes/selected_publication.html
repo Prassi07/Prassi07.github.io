@@ -1,0 +1,21 @@
+{% include base_path %}
+
+
+{% assign title = post.title %}
+
+<div class="publication_mini">
+  <article>
+    
+    <div class="container" style="display: flex;">
+      <img class="mini_pic" style="height: auto; float: left; object-fit: contain" src="{{ post.image }}" alt="" />
+      <div class="clearfix">
+        <h3> {{ title }} </h3>
+        <p> {{ post.authors }} </p>
+        <p> {{ post.venue }} </p>
+        <a href="{{ post.paperurl }}" rel="permalink" class="btn" target="_blank"> Full Paper </a>  {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank" > Video </a> {% endif %}
+        
+      </div>
+    </div>
+
+ </article>
+</div>

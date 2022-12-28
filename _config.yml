@@ -68,7 +68,7 @@ author:
   name             : "Prasanna Sriganesh"
   avatar           : "profile.png"
   googlescholar    : "https://scholar.google.com/citations?user=737BGnoAAAAJ&hl=en"
-  email            : "prassi007@gmail.com"
+  email            : "pkettava@andrew.cmu.edu"
   github           : "Prassi07"
   youtube          : https://www.youtube.com/channel/UCrXpoQFOJCzHKFRn0e1KivA
   cv               : http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf
@@ -132,25 +132,14 @@ kramdown:
 # Collections
 collections:
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
-  courseprojects:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
   # _publications
   - scope:
       path: ""
@@ -164,14 +153,6 @@ defaults:
   - scope:
       path: ""
       type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: false
-  # _academicprojects
-  - scope:
-      path: ""
-      type: courseprojects
     values:
       layout: single
       author_profile: true
