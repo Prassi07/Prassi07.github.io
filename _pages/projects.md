@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: projects
 title: Projects
 permalink: /projects/
 author_profile: true
@@ -8,6 +8,6 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.projects %}
-  {% include archive-single-project.html %}
+  {% include list-projects.html %}
 {% endfor %}
 

@@ -6,7 +6,7 @@ permalink: "/projects/tonyhumanoid"
 collection: projects
 youtubeId: "9P8o5eNoTcs"
 year: "Jan 2019 - Dec 2019"
-
+project_type: "Research"
 ---
 <img style="float: right; width: 350px" src="/images/tony_2.jpg" />
 * Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. 

@@ -1,0 +1,38 @@
+{% include base_path %}
+
+
+{% assign title = post.title %}
+{% assign peri = post.year %}
+
+{% case post.project_type %}
+  {% when 'Research' %}
+    {% assign tag_color = 'darkblue' #%}
+  {% when 'Course' %}
+    {% assign tag_color = 'darkred' %}
+  {% when 'Independent' %}
+    {% assign tag_color = 'darkgreen' %}
+{% endcase %}
+
+<div class="projects">
+  <article>
+
+    <div class="container" style="display: flex;">
+      <img class="project_pic" style="height: auto; float: left; object-fit: contain; border-color: black;border: solid;" src="{{ post.imagePath }}" alt="" />
+      <div class="clearfix">
+        <h2> <a href="{{ base_path }}{{ post.url }}" rel="permalink" > {{ title }} </a>  </h2>
+
+        {% if post.year %}
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ peri }} <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ post.project_type }} Project
+        {% endif %}
+        
+        {% if post.excerpt  %}
+          <p class="project-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > More Details </a> 
+      </div>
+    </div>
+
+    <hr />
+  </article>
+</div>

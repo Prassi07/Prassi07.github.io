@@ -26,7 +26,9 @@ layout: default
 
     <h3 style="color: black; margin-top: 1em;">Selected Publications: </h3>
     {% for post in site.publications reversed %}
-      {% include selected_publication.html %}
+      {% if post.selected == 'true' %}
+        {% include selected_publication.html %}
+      {% endif %}
     {% endfor %}
 
   </article>

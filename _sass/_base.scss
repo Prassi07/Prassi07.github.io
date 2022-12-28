@@ -275,6 +275,10 @@ figure {
   width: 300px;
 }
 
+.project_pic{
+  width: 300px;
+}
+
 .publications{
   margin-bottom: 1em;
   margin-right: 1em;
@@ -298,7 +302,45 @@ figure {
     margin-left: 0.5%;
     margin-bottom: 0%;
   }
+
 }
+
+.projects{
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  
+  h2{
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    color: $darkest-gray;
+    width: 100%;
+    a {
+      text-decoration: underline;
+      color: #000;
+      
+      &:hover {
+        text-decoration: underline;
+        color: $info-color;
+      }
+    }
+  }
+
+  .clearfix{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  p{
+    margin-top: 0%;
+    margin-left: 0.5%;
+    margin-bottom: 0%;
+  }
+
+}
+
+
 
 @media (max-width: 750px) {
   .container {
@@ -311,10 +353,29 @@ figure {
   .clearfix{
     margin-top: 1vw;
   }
+  .publications{
+    .clearfix{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .projects{
+    .clearfix{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .mini_pic{
     max-width: 90vw;
   }
+
   .publication_pic{
+    max-width: 90vw;
+  }
+
+  .project-pic{
     max-width: 90vw;
   }
 }
