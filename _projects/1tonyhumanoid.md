@@ -9,15 +9,22 @@ year: "Jan 2019 - Dec 2019"
 project_type: "Research"
 
 ---
-<img style="float: right; width: 350px" src="/images/tony_2.jpg" />
-* Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. 
-* This project was completed under the guidance of [Prof. Rajasekar Mohan](https://faculty.pes.edu/p10125)
-* It uses dual shaft servo motors with 17kgcm torque. 
-* The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around.
-* The walk trajectories are obtained using the 3-D linear inverted pendulum model. 
-* A geometric solution is devised to calculate the inverse kinematics for the robot. This is the premise for this [paper](https://prassi07.github.io/publication/inv-kine-geometric-sii2020)
-* Since this robot does not have a yaw degree of freedom, turning in place is achieved using the slip phenonmenon
-* A curved path walking gait algroithm is devised using this slip factor and is successfully achieved in the [paper](https://prassi07.github.io/publication/curved-path-slip-sii2021)
+
+ <div class="container" style="display: flex; align-items: flex-start">
+    <div class="clearfix">
+     <ul>
+        <li> Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total </li>
+        <li> This project was completed under the guidance of <a href="https://faculty.pes.edu/p10125" target="_blank">Prof. Rajasekar Mohan</a> </li>
+        <li> It uses dual shaft servo motors with 17kgcm torque </li>
+        <li> The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around </li>
+        <li> The walk trajectories are obtained using the 3-D linear inverted pendulum model </li>
+        <li> A geometric solution is devised to calculate the inverse kinematics for the robot. This is the premise for this <a href="https://ieeexplore.ieee.org/abstract/document/9025944" target="_blank">paper</a></li>
+        <li> Since this robot does not have a yaw degree of freedom, turning in place is achieved using the slip phenonmenon </li>
+        <li> A curved path walking gait algroithm is devised using this slip factor and is successfully achieved in the <a href="https://ieeexplore.ieee.org/document/9382698" target="_blank">paper</a></li>
+     </ul>
+    </div>
+    <img class="project_pic" style="width: 300px; height: auto; float: left; object-fit: contain; border-radius:2%" src="/images/tony_2.jpg" alt="" />
+</div>
 
 ### Bot Specs: 
 
@@ -29,7 +36,7 @@ project_type: "Research"
 |					 | Weight | 2 Kilograms|
 | <b>Communication</b>      | Wired Serial | Bluetooth Serial|
 
-The team consisted of two students including me and  [Prajwal Rajendra Mahendrakar](https://scholar.google.com/citations?user=wZH3lt8AAAAJ&hl=en)
+The team consisted of two students including me and  [Prajwal Rajendra Mahendrakar](https://scholar.google.com/citations?user=wZH3lt8AAAAJ&hl=en){:target="_blank"}
 A video demonstrating all the basic gaits implemented on the robot is shown below.
 
 {% include youtubePlayer.html id=page.youtubeId %}
