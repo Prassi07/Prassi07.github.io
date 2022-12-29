@@ -10,12 +10,11 @@ project_type: "Research"
 
 ---
 
- <div class="container" style="display: flex; align-items: flex-start">
+ Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. This project was completed under the guidance of <a href="https://faculty.pes.edu/p10125" target="_blank">Prof. Rajasekar Mohan</a>
+
+ <div class="container3" style="display: flex; align-items: flex-start">
     <div class="clearfix">
-     <ul>
-        <li> Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total </li>
-        <li> This project was completed under the guidance of <a href="https://faculty.pes.edu/p10125" target="_blank">Prof. Rajasekar Mohan</a> </li>
-        <li> It uses dual shaft servo motors with 17kgcm torque </li>
+     <ul style="margin-block-start: 0; padding-inline-start: 1.5em">
         <li> The robot uses an Arduino uno as the controller and communicates with an external computer to receive commands to move around </li>
         <li> The walk trajectories are obtained using the 3-D linear inverted pendulum model </li>
         <li> A geometric solution is devised to calculate the inverse kinematics for the robot. This is the premise for this <a href="https://ieeexplore.ieee.org/abstract/document/9025944" target="_blank">paper</a></li>
@@ -23,7 +22,7 @@ project_type: "Research"
         <li> A curved path walking gait algroithm is devised using this slip factor and is successfully achieved in the <a href="https://ieeexplore.ieee.org/document/9382698" target="_blank">paper</a></li>
      </ul>
     </div>
-    <img class="project_pic" style="width: 300px; height: auto; float: left; object-fit: contain; border-radius:2%" src="/images/tony_2.jpg" alt="" />
+    <img class="project_spic" style="width: 300px; height: auto; float: left; object-fit: contain; border-radius:2%" src="/images/tony_2.jpg" alt="" />
 </div>
 
 ### Bot Specs: 

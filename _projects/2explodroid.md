@@ -13,9 +13,9 @@ This robot was built as part of the research work conducted in Microsoft Innovat
 <img src="/images/explodroid.JPG" style="border-radius:2%" />
 
 
- <div class="container" style="display: flex; align-items: flex-start">
+ <div class="container3" style="display: flex; align-items: flex-start">
     <div class="clearfix">
-     <ul>
+     <ul style="padding-inline-start: 1.5em">
         <li> The robot uses a xbox Kinect RGB-D camera to sense the environment. </li>
         <li> The robot using differential drive mechanism to move around. The motors are equipped with encoders to provide postion feedback. </li>
         <li> The robot uses an Intel NUC as the on board computer which runs ROS and performs SLAM </li>
