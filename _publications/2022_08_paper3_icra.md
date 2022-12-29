@@ -14,11 +14,10 @@ citation: '<b>Prasanna Sriganesh </b>, Namya Bagree, Bhaskar Vundurthy and Matth
 
 collection: publications
 # permalink: /publication/staircase-detection-icra
-contenttype: 'publication'
 selected: 'true'
 
 ---
 
 
 
----
+

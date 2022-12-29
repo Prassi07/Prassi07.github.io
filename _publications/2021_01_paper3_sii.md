@@ -14,11 +14,10 @@ citation: '<b>Prasanna Sriganesh </b> and Prajwal Rajendra Mahendrakar, &quot;Ge
 
 collection: publications
 # permalink: /publication/curved-path-slip-sii2021
-contenttype: 'publication'
 selected: 'true'
 
 
 ---
 
 
----
+

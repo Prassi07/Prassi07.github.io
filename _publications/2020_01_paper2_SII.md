@@ -14,10 +14,8 @@ citation: '<b>Prasanna Sriganesh</b>, Prajwal Rajendra Mahendrakar and Rajasekar
 
 collection: publications
 # permalink: /publication/inv-kine-geometric-sii2020
-contenttype: 'publication'
 selected: 'false'
 
 ---
 
 
----

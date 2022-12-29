@@ -39,11 +39,20 @@
     @include prefix(0.5 of 12);
   }
 
+  u{
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
   a {
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -71,6 +80,40 @@
     }
   }
 
+}
+
+.research_archive {
+  margin-bottom: 2em;
+
+  @include breakpoint($medium) {
+    @include span(12 of 12);
+  }
+
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+
+  u{
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
 }
 
 .archive__subtitle {
