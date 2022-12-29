@@ -29,7 +29,7 @@
           <p class="project-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
 
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
       </div>
     </div>
 

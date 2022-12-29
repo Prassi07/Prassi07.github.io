@@ -15,7 +15,7 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="container" style="display: flex;">
+    <div class="container" style="display: flex; align-items: flex-start;">
       <img class="profile" style="height: auto; float: left; object-fit: contain; border-radius: 5%" src="/images/welcomePic.png" alt="Welcome" />
       <div class="clearfix">
         {{ content }}

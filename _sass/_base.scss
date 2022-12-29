@@ -347,8 +347,24 @@ figure {
   
   h2{
     margin-top: 0.5%;
-    margin-left: 0.5%;
     margin-bottom: 0.5%;
+    color: $darkest-gray;
+    width: 100%;
+    a {
+      text-decoration: underline;
+      color: #000;
+      
+      &:hover {
+        text-decoration: underline;
+        color: $info-color;
+      }
+    }
+  }
+
+  h3{
+    margin-top: 0.5%;
+    margin-left: 0.75%;
+    margin-bottom: 0.25%;
     color: $darkest-gray;
     width: 100%;
     a {
@@ -369,8 +385,16 @@ figure {
 
   p{
     margin-top: 0%;
-    margin-left: 0.5%;
+    margin-left: 0.75%;
     margin-bottom: 0%;
+  }
+
+  ul li, ol li {
+    margin-bottom: 0;
+  }
+  ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
 }
