@@ -10,7 +10,7 @@ project_type: "Research"
 
 ---
 
- Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. This project was completed under the guidance of <a href="https://faculty.pes.edu/p10125" target="_blank">Prof. Rajasekar Mohan</a>
+ Tony is a humanoid robot built as platform to conduct research in humanoid robot. The robot has 17 Degrees of Freedom in total. This project was completed under the guidance of <a href="https://staff.pes.edu/nm1270" target="_blank">Prof. Rajasekar Mohan</a>
 
  <div class="container3" style="display: flex; align-items: flex-start">
     <div class="clearfix">
