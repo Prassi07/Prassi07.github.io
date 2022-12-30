@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Masters student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/){:target="_blank"} and my work focuses on planning for hetergeneous robot fleets. My other research fields also include locomotion and control for legged robots.
+Hello, Welcome to my website. I am a Masters student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/){:target="_blank"} and my work focuses on planning for hetergeneous robot fleets. My other research fields also include locomotion and control for legged robots.
 
 <p style="text-align: center"> <a href="mailto:{{site.author.email}}"  rel="permalink" class="btn3" target="_blank"> <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email </a> <a href="{{site.author.cv}}"  rel="permalink" class="btn3" target="_blank"> <i class="fa fa-fw fa-file" aria-hidden="true"></i> CV </a> <a href="{{ site.author.googlescholar }}"  rel="permalink" class="btn3" target="_blank"> <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar </a> <a href="https://www.github.com/{{ site.author.github }}" rel="permalink" class="btn3" target="_blank"> <i class="fab fa-fw fa-github"  aria-hidden="true"></i> Github </a> </p>
 
