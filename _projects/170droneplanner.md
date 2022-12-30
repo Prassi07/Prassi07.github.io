@@ -1,5 +1,5 @@
 ---
-title: "Planner for Emergency Landing in Drones"
+title: "UAV Path Planning for Landing and Coverage in Dense Forests"
 excerpt: " In this work, we developed and implemented a planning strategy for UAVs to plan an emergency landing on one of landing zones in an environment which will maximize coverage within battery life constraints."
 imagePath: "/images/drone_planner.png"
 permalink: "/projects/droneplanner"

@@ -19,7 +19,11 @@
     <div class="container" style="display: flex;">
       <img class="project_pic" style="height: auto; float: left; object-fit: contain; border-color: black;border: solid; border-radius:2%;" src="{{ post.imagePath }}" alt="" />
       <div class="clearfix">
-        <h2> <a href="{{ base_path }}{{ post.url }}" rel="permalink" > {{ title }} </a>  </h2>
+        {% if post.externalproj == "true" %}
+          <h2> <a href="{{ post.externalLink }}" rel="permalink" target="_blank"> {{ title }} </a>  </h2>
+        {% else %}
+          <h2> <a href="{{ base_path }}{{ post.url }}" rel="permalink" > {{ title }} </a>  </h2>
+        {% endif %}
 
         {% if post.year %}
           <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ peri }} <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ post.project_type }} Project
@@ -29,8 +33,12 @@
           <p class="project-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
 
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
-      </div>
+        {% if post.externalproj == "true" %}
+          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank"> Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
+        {% endif %}
+        </div>
     </div>
 
     <hr />

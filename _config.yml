@@ -137,6 +137,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  extprojects:
+    output: false
+    permalink: /:collection/:path/
     # defaults:
     #   - scope:
     #       path: ""
