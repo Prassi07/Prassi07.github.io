@@ -15,7 +15,7 @@
         {% if post.date and post.location %}
           <p class="page__date"><i class="fa fa-calendar" aria-hidden="true" ></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> <i class="fas fa-map-marker-alt" style="color: #960a0a" aria-hidden="true"></i> {{post.location}}</p>
         {% endif %}
-        <a href="{{ post.paperurl }}" rel="permalink" class="btn2" target="_blank"> Full Paper </a>  {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn2" target="_blank" > Video </a> {% endif %}
+        <a href="{{ post.paperurl }}" rel="permalink" class="btn2" target="_blank"> Full Paper </a>  {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn2" target="_blank" > Video </a> {% endif %} {% if post.single %} <a href="{{ base_path }}{{ post.singlelink }}" rel="permalink" class="btn2" target="_blank" > Know More </a> {% endif %}
       </div>
     </div>
     <hr />

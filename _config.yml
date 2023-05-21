@@ -134,6 +134,9 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
+  single_publications:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
@@ -155,6 +158,13 @@ defaults:
       type: projects
     values:
       layout: projects_single
+      author_profile: true
+      share: false
+  - scope:
+      path: ""
+      type: single_publications
+    values:
+      layout: publications_single
       author_profile: true
       share: false
 
