@@ -4,6 +4,7 @@ excerpt: " The goal of this project is to rapidly map, navigate, and search envi
 imagePath: "/images/mmpug_group.jpg"
 externalLink: "https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/"
 collection: extprojects
+extvideos: "https://mattlabcmu.wordpress.com/"
 # youtubeId: "G-g9eicdSfE"
 year: "Nov 2021 - Present"
 project_type: "Research"

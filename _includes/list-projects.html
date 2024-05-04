@@ -34,7 +34,7 @@
         {% endif %}
 
         {% if post.externalproj == "true" %}
-          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank"> Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
+          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank"> Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn" target="_blank"> Videos </a> {% endif %}
         {% else %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
         {% endif %}
