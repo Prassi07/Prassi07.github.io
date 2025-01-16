@@ -11,6 +11,8 @@
     {% assign tag_color = 'darkred' %}
   {% when 'Independent' %}
     {% assign tag_color = 'darkgreen' %}
+  {% when 'Internship' %}
+    {% assign tag_color = 'darkgreen' %}
 {% endcase %}
 
 <div class="projects">
@@ -24,19 +26,22 @@
         {% else %}
           <h2> <a href="{{ base_path }}{{ post.url }}" rel="permalink" > {{ title }} </a>  </h2>
         {% endif %}
-
-        {% if post.year %}
-          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ peri }} <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ post.project_type }} Project
-        {% endif %}
         
+       
+        {% if post.year %}
+         <p> <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ peri }} </p>
+         <!--  <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ post.project_type }} Project -->
+        {% endif %}
+       
+
         {% if post.excerpt  %}
           <p class="project-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
 
         {% if post.externalproj == "true" %}
-          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank"> Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn" target="_blank"> Videos </a> {% endif %}
+          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn" target="_blank">Videos</a> {% endif %}
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn" > Read More </a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank">Video</a> {% endif %}
         {% endif %}
         </div>
     </div>

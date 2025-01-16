@@ -10,6 +10,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-    {% include list-publication.html %}
+
+
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% assign current_year = nil %}
+
+{% for post in sorted_publications %}
+  {% assign post_year = post.date | date: "%Y" %}
+  
+  {% if post_year != current_year %}
+    {% include year_header.html year = post_year %} 
+    {% assign current_year = post_year %}
+  {% endif %}
+
+  {% include list-publication.html %}
 {% endfor %}

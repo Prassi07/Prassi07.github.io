@@ -6,10 +6,10 @@ permalink: "/projects/explodroid"
 collection: projects
 youtubeId: "bSsTSEbaySQ"
 year: "May 2017 - Jul 2018"
-project_type: "Research"
+project_type: "Internship"
 ---
 
-This robot was built as part of the research work conducted in Microsoft Innovation Lab as interns. The robot was inspired by the [TurtleBot](https://www.turtlebot.com/){:target="_blank"}, mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
+This robot was built as part of the internship work conducted in Microsoft Innovation Lab. The robot was inspired by the [TurtleBot](https://www.turtlebot.com/){:target="_blank"}, mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
 <img src="/images/explodroid.JPG" style="border-radius:2%" />
 
 
