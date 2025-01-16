@@ -454,6 +454,11 @@ figure {
     }
   }
 
+  pre, code {
+    white-space: pre-wrap;  
+    word-wrap: break-word;      /* Force long words to break */
+  }
+
   .mini_pic{
     max-width: 90vw;
   }
