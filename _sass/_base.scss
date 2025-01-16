@@ -291,7 +291,7 @@ figure {
   h2{
     margin-top: 0.5%;
     margin-left: 0.5%;
-    margin-bottom: 0%;
+    margin-bottom: 0.1em;
     color: $darkest-gray;
     width: 100%;
   }
@@ -299,12 +299,27 @@ figure {
   .clearfix{
     margin-left: 0.5em;
     margin-right: 0.5em;
+    p { 
+      margin-bottom: 0.15em; // Add space between paragraphs
+      margin-top: 0.15em;
+    }
+
+    .btn2 {
+      margin-bottom: 0.1em; // Add space below buttons
+    }
   }
 
-  p{
-    margin-top: 0%;
-    margin-left: 0.5%;
-    margin-bottom: 0%;
+  .bibtex-code, 
+  .abstract-text {
+    margin-top: 0.5em; 
+    white-space: normal;
+    font-family: monospace;   // Use a monospace font
+    background-color: rgba(0, 0, 0, 0.1);  // Dark background
+    // color: #eee;             // Light text color
+    padding: 1em;            // Add some padding
+    border-radius: 4px;      // Optional: Add rounded corners
+    overflow: auto;          // Add scrollbar if content overflows
+    font-size: $type-size-6;
   }
 
 }
