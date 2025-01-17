@@ -16,7 +16,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
