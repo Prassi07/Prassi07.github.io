@@ -328,8 +328,8 @@ figure {
 .year-header {
   display: flex; /* Use flexbox for easy alignment */
   align-items: center; /* Vertically center the line and year */
-  margin-top: 2em; /* Add some space above the header */
-  margin-bottom: 1em; /* Add some space below the header */
+  margin-top: 0.5em; /* Add some space above the header */
+  margin-bottom: 0.5em; /* Add some space below the header */
 }
 
 .year-header .line {

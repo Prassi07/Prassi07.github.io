@@ -8,7 +8,7 @@ youtubeId: 'QDYkL4a-uE4'
 image: '/images/stair_bayesian_estimation.png'
 
 location: ''
-date: 2024-12-13
+date: 2025-01-07
 
 bibtex: "@article{sriganesh2025bayesian,
   \n\t title={A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases},
