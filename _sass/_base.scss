@@ -466,13 +466,22 @@ figure {
   .publication_pic{
     max-width: 90vw;
   }
+
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center !important;
+
+    .profile{
+      margin-right: 0em !important;
+    }
+  }
+
 }
 
 @media (max-width: 850px) {
-  .container {
-    flex-direction: column;
-    align-items: center !important;
-  }
 
   .profile{
     max-width: 90vw;
