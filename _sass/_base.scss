@@ -283,6 +283,10 @@ figure {
   width: 300px;
 }
 
+.youtubePlayerContainer{
+  width: 60%;
+}
+
 .publications{
   margin-bottom: 1em;
   margin-right: 1em;
@@ -475,7 +479,7 @@ figure {
     align-items: center !important;
 
     .profile{
-      margin-right: 0em !important;
+      margin-left: 0em !important;
     }
   }
 
@@ -509,6 +513,10 @@ figure {
   
   .project_spic{
     max-width: 90vw;
+  }
+
+  .youtubePlayerContainer{
+    width: 100%;
   }
 }
 

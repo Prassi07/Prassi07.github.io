@@ -1,20 +1,23 @@
 ---
 layout: publication_single
-permalink: "/publication/staircase-detection-icra"
+permalink: "/publication/staircase-detection-icra23"
 
 title: "Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots"
 authors: '<b>Prasanna Sriganesh</b>, Namya Bagree, Bhaskar Vundurthy and Matthew Travers'
 conference: '2023 IEEE International Conference on Robotics and Automation (ICRA)'
 
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10160258'
-youtubeId: 'DO114mELokw'
+youtubeId: '-QbWmr-CmYI'
+youtubeId2: '6-V9mmfgTmQ'
 image: '/images/staircase_icra.jpg'
 
 
 ---
 {% include base_path %}
 
-<p style="margin-bottom: 0em; text-align: justify;">
+<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> <a href="{{ page.paperurl }}" rel="permalink" class="btn2" target="_blank">Full Paper</a>  <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn2" target="_blank" >Video</a></p>
+
+<p style="margin-bottom: 0.25em; text-align: justify;">
 Robotic systems need advanced mobility capabilities to operate in complex, three-dimensional environments designed for human use, e.g., apartments, warehouses or any such multi-level building. This work presents a novel method that enables mobile robots to robustly operate in multi-level environments by making it possible to autonomously locate and climb a range of different staircases.
 </p>
 
@@ -32,4 +35,12 @@ Robotic systems need advanced mobility capabilities to operate in complex, three
     </div>
 </div>
 
-<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> You can find out more - <a href="{{page.paperurl}}" target="_blank">Full Paper</a> | <a href="https://youtu.be/{{page.youtubeId}}" target="_blank">Video</a> </p>
+
+<p style="margin-bottom: 0.25em; text-align: center;">
+    The video below demonstrates the detection algorithm and the multi-detection merging pipeline deployed on the robot for multiple large-scale staircases.
+</p>
+
+
+<div class="youtubePlayerContainer" style="margin: 0 auto;text-align: center;">
+  {% include youtubePlayer.html id=page.youtubeId2 %}
+</div>
