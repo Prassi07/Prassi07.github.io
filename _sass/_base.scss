@@ -500,10 +500,11 @@ figure {
 
   .project_pic{
     max-width: 90vw;
+    width: 90% !important;
   }
 
   .container3{
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center !important;
   }
 
