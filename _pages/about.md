@@ -11,9 +11,8 @@ redirect_from:
 
 I'm a Ph.D. student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/){:target="_blank"}, in the Biorobotics lab. My current work focuses on mainly two things, 
 
-- **Motion Planning for Mobile Robots:** Focus on developing path-planning algorithms that can reason about robot’s capabilities (non-holonomic wheeled robots, quadrupeds) to navigate in complex environments. My goal is to enable real-time planning strategies that can reason about robot’s traversability in uncertain terrain. 
-- **Uncertainty-aware Active Perception** Developing strategies for robots to actively minimize uncertainty in perceived environment information through targeted sensing actions. My long-term goal is to integrate active perception with motion planning, enabling robots to make informed decisions in dynamic and uncertain scenarios
-
+- **Interaction-aware Motion Planning:** Developing algorithms that reason about robot-environment interactions to navigate realistic complex environments
+- **Uncertainty-aware Active Perception** Developing strategies for robots to actively reduce environmental uncertainty through targeted sensing actions
 
 <p style="text-align: center"> <a href="mailto:{{site.author.email}}"  rel="permalink" class="btn3" target="_blank"> <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email </a> <a href="{{site.author.cv}}"  rel="permalink" class="btn3" target="_blank"> <i class="fa fa-fw fa-file" aria-hidden="true"></i> CV </a> <a href="{{ site.author.googlescholar }}"  rel="permalink" class="btn3" target="_blank"> <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar </a> <a href="https://www.github.com/{{ site.author.github }}" rel="permalink" class="btn3" target="_blank"> <i class="fab fa-fw fa-github"  aria-hidden="true"></i> Github </a> </p>
 
