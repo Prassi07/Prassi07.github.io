@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
-<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf) -->
+<i class="fa fa-download" aria-hidden="true"></i> [ Download Full PDF of CV](https://prassi07.github.io/files/PrasannaSriganesh_CV.pdf) -->
 
-<!-- <object data="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">Download PDF</a>.</p>
+<!-- <object data="https://prassi07.github.io/files/PrasannaSriganesh_CV.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://prassi07.github.io/files/PrasannaSriganesh_CV.pdf">Download PDF</a>.</p>
     </embed>
 </object> -->
 
