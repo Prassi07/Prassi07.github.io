@@ -4,7 +4,7 @@ permalink: "/publication/bayesian-staircase-estimation"
 
 title: "A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases"
 authors: '<b>Prasanna Sriganesh</b>, Burhanunddin Shirose and Matthew Travers'
-conference: 'Under Review for IEEE RA-L'
+conference: 'Accepted into IEEE Robotics and Automation Letters (RA-L) 2025'
 
 paperurl: 'https://arxiv.org/abs/2501.04170'
 youtubeId: 'QDYkL4a-uE4'

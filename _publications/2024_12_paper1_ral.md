@@ -1,7 +1,7 @@
 ---
 title: "A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases"
 authors: "<b>Prasanna Sriganesh</b>, Burhanuddin Shirose and Matthew Travers"
-conference: 'In Review for IEEE Publication'
+conference: 'Accepted to IEEE Robotics and Automation Letters (RA-L)'
 
 paperurl: 'https://arxiv.org/abs/2501.04170'
 youtubeId: 'QDYkL4a-uE4'
@@ -22,8 +22,8 @@ abstract: "Autonomous robot navigation in complex environments requires robust p
 collection: publications
 selected: 'true'
 
-# singlelink: /publication/staircase-estimation
-# single: 'false'
+singlelink: /publication/bayesian-staircase-estimation
+single: 'true'
 
 ---
 
