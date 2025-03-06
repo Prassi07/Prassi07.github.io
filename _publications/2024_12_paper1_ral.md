@@ -4,7 +4,7 @@ authors: "<b>Prasanna Sriganesh</b>, Burhanuddin Shirose and Matthew Travers"
 conference: 'Accepted to IEEE Robotics and Automation Letters (RA-L)'
 
 paperurl: 'https://arxiv.org/abs/2501.04170'
-youtubeId: 'QDYkL4a-uE4'
+youtubeId: '8baHgQ_rGLs'
 image: '/images/stair_bayesian_estimation.png'
 
 location: ''

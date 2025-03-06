@@ -7,7 +7,7 @@ authors: '<b>Prasanna Sriganesh</b>, Burhanunddin Shirose and Matthew Travers'
 conference: 'Accepted into IEEE Robotics and Automation Letters (RA-L) 2025'
 
 paperurl: 'https://arxiv.org/abs/2501.04170'
-youtubeId: 'QDYkL4a-uE4'
+youtubeId: '8baHgQ_rGLs'
 
 ---
 {% include base_path %}
