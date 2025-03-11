@@ -11,6 +11,14 @@ youtubeId: '-QbWmr-CmYI'
 youtubeId2: '6-V9mmfgTmQ'
 image: '/images/staircase_icra.jpg'
 
+bibtex: "@inproceedings{sriganesh2023fast,
+   \n\t title={Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots},
+   \n\t author={Sriganesh, Prasanna and Bagree, Namya and Vundurthy, Bhaskar and Travers, Matthew},
+   \n\t booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+   \n\t pages={9253--9259},
+   \n\t year={2023},
+   \n\t organization={IEEE},
+\n}"
 
 ---
 {% include base_path %}
@@ -35,7 +43,7 @@ Robotic systems need advanced mobility capabilities to operate in complex, three
     <img class="project_pic" style="width: 60%; height: auto; float: right; object-fit: contain; border-radius:2%" src="/images/staircase_merging_animation.gif" alt="" />
 </div>
 
-<div class="container3" style="display: flex; align-items: center;  flex-direction:column; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+<div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
     <div class="clearfix">
       The video below demonstrates the detection algorithm and the multi-detection merging pipeline deployed on the robot for multiple large-scale staircases.
     </div>
@@ -43,6 +51,11 @@ Robotic systems need advanced mobility capabilities to operate in complex, three
         {% include youtubePlayer.html id=page.youtubeId2 %}
     </div>
 </div>
+
+<div id="bibtex-indiv" class="bibtex-code" style="display: block; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+        <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
+</div>
+
 
 
 
