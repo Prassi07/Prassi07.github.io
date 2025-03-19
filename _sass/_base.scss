@@ -329,6 +329,19 @@ figure {
 
 }
 
+.bibtex-code{
+  margin-top: 0.5em; 
+  white-space: normal;
+  font-family: monospace;   // Use a monospace font
+  background-color: rgba(0, 0, 0, 0.1);  // Dark background
+  // color: #eee;             // Light text color
+  padding: 1em;            // Add some padding
+  border-radius: 4px;      // Optional: Add rounded corners
+  overflow: auto;          // Add scrollbar if content overflows
+  font-size: $type-size-5-5;
+}
+
+
 .year-header {
   display: flex; /* Use flexbox for easy alignment */
   align-items: center; /* Vertically center the line and year */
@@ -519,6 +532,7 @@ figure {
   .youtubePlayerContainer{
     width: 100%;
   }
+
 }
 
 /* Figure captions */

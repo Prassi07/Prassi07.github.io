@@ -1,6 +1,6 @@
 ---
 layout: publication_single
-permalink: "/publication/staircase-detection-icra23"
+permalink: "/fast-staircase-detection"
 
 title: "Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots"
 authors: '<b>Prasanna Sriganesh</b>, Namya Bagree, Bhaskar Vundurthy and Matthew Travers'
@@ -52,8 +52,13 @@ Robotic systems need advanced mobility capabilities to operate in complex, three
     </div>
 </div>
 
-<div id="bibtex-indiv" class="bibtex-code" style="display: block; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-        <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
+<div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+    <div class="clearfix" style="text-align: left; width: 100%;">
+        Citation:
+    </div>
+    <div id="bibtex-indiv" class="bibtex-code" style="width: 100%;">
+            <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
+    </div>
 </div>
 
 

@@ -9,6 +9,14 @@ conference:  'IEEE Robotics and Automation Letters (RA-L) 2025'
 paperurl: 'https://ieeexplore.ieee.org/document/10918822'
 youtubeId: '8baHgQ_rGLs'
 
+bibtex: "@article{sriganesh2025bayesian,
+  \n\t title={A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases},
+  \n\t author={Sriganesh, Prasanna and Shirose, Burhanuddin and Travers, Matthew},
+  \n\t journal={IEEE Robotics and Automation Letters},
+  \n\t year={2025},
+  \n\t publisher={IEEE}
+\n}"
+
 ---
 {% include base_path %}
 
@@ -46,7 +54,7 @@ Autonomous robot navigation in complex environments requires robust perception a
     <img class="project_pic" style="width: 60%; height: auto; object-fit: contain; border-radius:2%; margin: 0.5em" src="/images/bayesian_staircase/bse_result_animation.gif" alt="" />
 </div>
 
-<div class="container3" style="display: flex; align-items: center;  flex-direction:column; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+<div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
     <div class="clearfix">
       Here are some more example results of our proposed work. Our algorithm generalizes to different types of staircase.
     </div>
@@ -57,7 +65,13 @@ Autonomous robot navigation in complex environments requires robust perception a
     <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result5.jpg" alt="" />
 </div>
 
-<!-- <div id="bibtex-indiv" class="bibtex-code" style="display: block;">
-        <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
-</div> -->
+<div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+    <div class="clearfix" style="text-align: left; width: 100%;">
+        Citation:
+    </div>
+    <div id="bibtex-indiv" class="bibtex-code" style="width: 100%;">
+            <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
+    </div>
+</div>
+
 
