@@ -1,6 +1,6 @@
 ---
 layout: publication_single
-permalink: "/publication/bayesian-staircase-estimation"
+permalink: "/bayesian-staircase-estimation"
 
 title: "A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases"
 authors: '<b>Prasanna Sriganesh</b>, Burhanunddin Shirose and Matthew Travers'
@@ -48,12 +48,13 @@ Autonomous robot navigation in complex environments requires robust perception a
 
 <div class="container3" style="display: flex; align-items: center;  flex-direction:column; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
     <div class="clearfix">
-      Here are some more example results of our proposed work
+      Here are some more example results of our proposed work. Our algorithm generalizes to different types of staircase.
     </div>
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result1.PNG" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result2.PNG" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result3.PNG" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result4.PNG" alt="" />
+    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result1.jpg" alt="" />
+    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result2.jpg" alt="" />
+    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result3.jpg" alt="" />
+    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result4.jpg" alt="" />
+    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result5.jpg" alt="" />
 </div>
 
 <!-- <div id="bibtex-indiv" class="bibtex-code" style="display: block;">

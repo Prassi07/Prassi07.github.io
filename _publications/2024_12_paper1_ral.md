@@ -22,7 +22,7 @@ abstract: "Autonomous robot navigation in complex environments requires robust p
 collection: publications
 selected: 'true'
 
-singlelink: /publication/bayesian-staircase-estimation
+singlelink: /bayesian-staircase-estimation
 single: 'true'
 
 ---
