@@ -14,6 +14,9 @@ bibtex: "@article{sriganesh2025bayesian,
   \n\t author={Sriganesh, Prasanna and Shirose, Burhanuddin and Travers, Matthew},
   \n\t journal={IEEE Robotics and Automation Letters},
   \n\t year={2025},
+  \n\t volume={10},
+  \n\t number={5},
+  \n\t pages={4164-4171},
   \n\t publisher={IEEE}
 \n}"
 
