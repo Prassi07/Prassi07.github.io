@@ -9,6 +9,7 @@ image: '/images/tony_ik.png'
 
 location: 'Honolulu, HI, USA'
 date: 2020-01-12
+github: 'https://github.com/Prassi07/TonyHumanoid'
 
 bibtex: "@inproceedings{sriganesh2020solving,
   \n\t title={Solving inverse kinematics using geometric analysis for gait generation in small-sized humanoid robots},

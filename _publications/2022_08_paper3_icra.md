@@ -10,6 +10,8 @@ image: '/images/staircase_icra.jpg'
 location: 'London, United Kingdom'
 date: 2023-06-01
 
+github: 'https://github.com/Prassi07/staircase_autonomy'
+
 bibtex: "@inproceedings{sriganesh2023fast,
    \n\t title={Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots},
    \n\t author={Sriganesh, Prasanna and Bagree, Namya and Vundurthy, Bhaskar and Travers, Matthew},

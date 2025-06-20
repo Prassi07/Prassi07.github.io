@@ -10,6 +10,7 @@ paperurl: 'https://ieeexplore.ieee.org/abstract/document/10160258'
 youtubeId: '-QbWmr-CmYI'
 youtubeId2: '6-V9mmfgTmQ'
 image: '/images/staircase_icra.jpg'
+github: 'https://github.com/Prassi07/staircase_autonomy' 
 
 bibtex: "@inproceedings{sriganesh2023fast,
    \n\t title={Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots},
@@ -23,7 +24,14 @@ bibtex: "@inproceedings{sriganesh2023fast,
 ---
 {% include base_path %}
 
-<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> <a href="{{ page.paperurl }}" rel="permalink" class="btn2" target="_blank">Full Paper</a>  <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn2" target="_blank" >Video</a></p>
+<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> 
+<a href="{{ page.paperurl }}" rel="permalink" class="btn2" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+  <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
+  {% if page.github %}
+    <a href="{{ page.github }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+  {% endif %}
+</p>
+
 
 <p style="margin-bottom: 0.25em; text-align: justify;">
 Robotic systems need advanced mobility capabilities to operate in complex, three-dimensional environments designed for human use, e.g., apartments, warehouses or any such multi-level building. This work presents a novel method that enables mobile robots to robustly operate in multi-level environments by making it possible to autonomously locate and climb a range of different staircases.
@@ -60,8 +68,3 @@ Robotic systems need advanced mobility capabilities to operate in complex, three
             <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
     </div>
 </div>
-
-
-
-
-

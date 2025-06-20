@@ -9,6 +9,7 @@ image: '/images/stair_bayesian_estimation.png'
 
 location: ''
 date: 2025-03-10
+github: 'https://github.com/Prassi07/staircase_autonomy'
 
 bibtex: "@article{sriganesh2025bayesian,
   \n\t title={A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases},
