@@ -9,6 +9,7 @@ image: '/images/tony_curvedpath.jpeg'
 
 location: 'Iwaki, Fukushima, Japan'
 date: 2021-01-14
+github: 'https://github.com/Prassi07/CurvedSlipTurn'
 
 bibtex: "@inproceedings{sriganesh2021generating,
  \n\t title={Generating curved path walking gaits for biped robots with deficient degrees of freedom},

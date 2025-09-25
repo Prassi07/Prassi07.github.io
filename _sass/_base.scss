@@ -329,6 +329,32 @@ figure {
 
 }
 
+.publication-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  gap: 0.5em; /* Add some space between buttons */
+  margin-top: 1em; /* Add some space above the buttons */
+}
+
+.publication-buttons .btn2 {
+  /*
+   * Set a flex-basis that allows up to 3 items per row on wider screens.
+   * calc(33.33% - 1em) gives roughly 3 items per row, accounting for the gap.
+   * Adjust the 1em value based on the actual gap and desired spacing.
+   * min-width ensures buttons don't get too small on narrow screens.
+   */
+  flex: 1 1 calc(33.33% - 1em);
+  min-width: 150px; /* Adjust minimum width as needed */
+  text-align: center; /* Center text within the button */
+  justify-content: center; /* Center content if using flex on the button itself */
+  display: flex; /* Use flex on the button to align icon and text */
+  align-items: center; /* Vertically align icon and text */
+}
+
+.publication-buttons .btn2 i {
+  margin-right: 0.5em; /* Space between icon and text */
+}
+
 .bibtex-code{
   margin-top: 0.5em; 
   white-space: normal;

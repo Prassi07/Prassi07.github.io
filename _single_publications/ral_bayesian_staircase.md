@@ -8,7 +8,7 @@ conference:  'IEEE Robotics and Automation Letters (RA-L) 2025'
 
 paperurl: 'https://ieeexplore.ieee.org/document/10918822'
 youtubeId: '8baHgQ_rGLs'
-
+github: 'https://github.com/Prassi07/staircase_autonomy' 
 bibtex: "@article{sriganesh2025bayesian,
   \n\t title={A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases},
   \n\t author={Sriganesh, Prasanna and Shirose, Burhanuddin and Travers, Matthew},
@@ -23,8 +23,13 @@ bibtex: "@article{sriganesh2025bayesian,
 ---
 {% include base_path %}
 
-<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> <a href="{{ page.paperurl }}" rel="permalink" class="btn2" target="_blank">Full Paper</a>  <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn2" target="_blank" >Video</a></p>
-
+<p style="text-align: center; margin-top: 0em; margin-bottom: 0em;"> 
+<a href="{{ page.paperurl }}" rel="permalink" class="btn2" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+  <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
+  {% if page.github %}
+    <a href="{{ page.github }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+  {% endif %}
+</p>
 <p style="margin-bottom: 0.25em; text-align: justify;">
 Autonomous robot navigation in complex environments requires robust perception as well as high-level scene understanding due to perceptual challenges, such as occlusions, and uncertainty introduced by robot movement. For example, a robot climbing a cluttered staircase can misinterpret clutter as a step, misrepresenting the state and compromising safety. This requires robust state estimation methods capable of inferring the underlying structure of the environment even from incomplete sensor data. In this paper, we introduce a novel method for robust state estimation of staircases. We have three key contributions.
 </p>
