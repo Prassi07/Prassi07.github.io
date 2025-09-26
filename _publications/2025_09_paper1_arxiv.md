@@ -3,8 +3,8 @@ title: "Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path P
 authors: "Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, Bhaskar Vundurthy, Howie Choset, and Matthew Travers"
 conference: 'arXiv'
 
-paperurl: 'https://arxiv.org/abs/2503.00647'
-youtubeId: '1pH-PkcRVZg'
+paperurl: 'https://arxiv.org/abs/2509.14941'
+youtubeId: 'cp83SsG9wjY'
 image: '/images/multicap_coverage.png'
 
 location: ''
