@@ -42,7 +42,7 @@ bibtex: "@article{sriganesh2025actioninformed,
         <img class="project_pic" style="width: 80%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/movability.png" alt="A diagram showing how the input point cloud is used to generate a library of motion primitives for the world model." />
       </div>
       <div class="clearfix" style="text-align: center">
-        When the robot is commanded to clear an object, a planner computes collision-free foot paths combined with the 'movable primitives' for pushing, which are then executed by a <b>pedipulation policy learned via reinforcement learning</b>. We then fuse <b>vision with proprioceptive contact feedback</b> to track an object's state through a push, even when it's occluded or when the push is partial.
+        When the robot is commanded to clear an object, a planner computes collision-free foot paths combined with the 'movable primitives' for pushing, which are then executed by a <b>pedipulation policy</b> learned via reinforcement learning. We then fuse <b>vision with proprioceptive contact feedback</b> to track an object's state through a push, even when it's occluded or when the push is partial.
       </div>
     </div>
 </div>
@@ -64,14 +64,14 @@ bibtex: "@article{sriganesh2025actioninformed,
 
   <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
       <div class="clearfix">
-        Our action-informed prior allows the robot to successfully track and re-plan after partial pushes, where the object doesn't fully clear the path.
+        Our perception-action coupling allows the robot to successfully track and re-plan after partial pushes, where the object doesn't fully clear the path.
       </div>
       <img class="project_pic" style="width: 85%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/partial_tracking.gif" alt="Partial push tracking result" />
   </div>
 
   <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
       <div class="clearfix">
-        The system can also detect immovable objects by sensing unexpected forces during a push. It then updates its model and re-plans a new path (e.g., stepping over) to continue its mission.
+        The system can also detect immovable objects based on proprioception feedback during a push. It then updates its model and can re-plan a new path to continue its mission.
       </div>
       <img class="project_pic" style="width: 85%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/immovable_update.gif" alt="Immovable object detection result" />
   </div>
