@@ -21,6 +21,7 @@ abstract: "For robots to operate autonomously in densely cluttered environments,
 
 collection: publications
 selected: 'false'
+singlelink: /clearing-clutter-on-stairs
 
 ---
 

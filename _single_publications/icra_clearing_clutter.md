@@ -1,6 +1,6 @@
 ---
 layout: publication_single
-permalink: "/clearing-clutter-staircases"
+permalink: "/clearing-clutter-on-stairs"
 
 title: "Action-Informed Estimation and Planning: Clearing Clutter on Staircases via Quadrupedal Pedipulation"
 authors: '<b>Prasanna Sriganesh</b>, Barath Satheeshkumar, Anushree Sabnis and Matthew Travers'
@@ -27,47 +27,57 @@ bibtex: "@article{sriganesh2025actioninformed,
   {% endif %}
 </p>
 
-<p style="margin-bottom: 0.25em; text-align: justify;">
-Autonomous robot navigation in complex environments requires robust perception as well as high-level scene understanding due to perceptual challenges.
-
-<!-- <div class="container3" style="display: flex; align-items: center; margin-bottom: 1em; flex-direction: row;  border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-    <div class="clearfix" style="text-align: center">
-       <b> Staircase Modeling: </b> We present a novel split state-space model to parameterize and represent large-scale staircases that can be used to predict other stairs in the staircase. 
-    </div>
-    <img class="project_pic" style="width: 35%; height: auto; float: right; object-fit: contain; border-radius:2%" src="/images/bayesian_staircase/modeling.png" alt="" />
+<div class="container3">
+    <h2>Abstract</h2>
+    <p>For robots to operate autonomously in densely cluttered environments, they must reason about and potentially physically interact with obstacles to clear a path. Safely clearing a path on challenging terrain, such as a cluttered staircase, requires controlled interaction. However, relying solely on exteroceptive (e.g., visual) feedback for interaction is challenging, as the robot's own body may occlude the object, and sensor measurements may be noisy. In this work, we propose an "action-informed" approach that tightly couples estimation and planning for quadrupedal robots to clear clutter on staircases via "pedipulation" (i.e., manipulation with a leg). Our action-informed estimation module uses proprioceptive (e.g., foot contact) feedback during an interaction to predict the object's displacement. This prediction serves as an action-informed prior to guide the perception system, enabling robust tracking even after partial pushes or brief occlusions. This interaction-aware state estimate is used by our motion planner to decide on subsequent actions, such as re-pushing, climbing, or treating an object as immovable. We show in hardware experiments that our interaction-aware system significantly outperforms an open-loop baseline in task success rate (e.g., 85% vs 35% on one task) and tracking accuracy, generalizing to various objects and environments.</p>
 </div>
 
-<div class="container3" style="display: flex; align-items: center;  margin-bottom: 1em; flex-direction: row; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-     <div class="clearfix" style="text-align: center">
-       <b> Staircase Estimation: </b> A robust pipeline for estimating staircase location and parameters over time using noisy detections in scenes with occlusion and clutter
+<div class="container2">
+    <h2>Our Approach</h2>
+    <div class="container3" style="display: flex; align-items: center; margin-bottom: 1em; flex-direction: column;  border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+      <div class="clearfix" style="text-align: center">
+        Our system is built on a tight coupling between planning, estimation, and action. We propose a framework that robustly segments and localizes clutter on staircases by leveraging geometric priors of the environment
+      </div>
+      <div style="display: flex; justify-content: center; margin: 1em 0;">
+        <img class="project_pic" style="width: 80%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/movability.png" alt="A diagram showing how the input point cloud is used to generate a library of motion primitives for the world model." />
+      </div>
+      <div class="clearfix" style="text-align: center">
+        When the robot is commanded to clear an object, a planner computes collision-free foot paths combined with the 'movable primitives' for pushing, which are then executed by a <b>pedipulation policy learned via reinforcement learning</b>. We then fuse <b>vision with proprioceptive contact feedback</b> to track an object's state through a push, even when it's occluded or when the push is partial.
+      </div>
     </div>
-    <img class="project_pic" style="width: 50%; height: auto; float: right; object-fit: contain; border-radius:2%" src="/images/bayesian_staircase/estimation.jpg" alt="" />
 </div>
 
-<div class="container3" style="display: flex; align-items: center; margin-bottom: 1em; flex-direction: row; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-    <div class="clearfix" style="text-align: center">
-       <b> Stair Surface Segmentation: </b> An algorithm combining the staircase estimate with the point cloud to segment the staircase ground points in presence of clutter
-    </div>
-    <img class="project_pic" style="width: 50%; height: auto; float: right; object-fit: contain; border-radius:2%" src="/images/bayesian_staircase/segmentation.png" alt="" />
+<div class="container2">
+  <h2>Results</h2>
+  <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+      <div class="clearfix">
+        Here are some results of our proposed work. Our algorithm generalizes to different types of objects and staircases.
+      </div>
+      <img class="project_pic" style="width: 85%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/basic_success_1.gif" alt="" />
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;">
+        <img class="project_pic" style="width: 48%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/basic_success_2.gif" alt="" />
+        <img class="project_pic" style="width: 48%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/basic_success_3.gif" alt="" />
+        <img class="project_pic" style="width: 48%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/basic_success_4.gif" alt="" />
+        <img class="project_pic" style="width: 48%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/basic_success_5.gif" alt="" />
+      </div>
+  </div>
+
+  <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+      <div class="clearfix">
+        Our action-informed prior allows the robot to successfully track and re-plan after partial pushes, where the object doesn't fully clear the path.
+      </div>
+      <img class="project_pic" style="width: 85%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/partial_tracking.gif" alt="Partial push tracking result" />
+  </div>
+
+  <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+      <div class="clearfix">
+        The system can also detect immovable objects by sensing unexpected forces during a push. It then updates its model and re-plans a new path (e.g., stepping over) to continue its mission.
+      </div>
+      <img class="project_pic" style="width: 85%; height: auto; object-fit: contain; margin: 0.5em" src="/images/clearing_clutter/immovable_update.gif" alt="Immovable object detection result" />
+  </div>
 </div>
 
-<div class="container3" style="display: flex; align-items: center; flex-direction:column;  margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-    <div class="clearfix">
-       The video below demonstrates our proposed pipeline deployed on the robot different staircases with clutter. Our algorithm is able to estimate staircase location and geometry even in presence of occlusions or partial measurements. 
-    </div>
-    <img class="project_pic" style="width: 60%; height: auto; object-fit: contain; border-radius:2%; margin: 0.5em" src="/images/bayesian_staircase/bse_result_animation.gif" alt="" />
-</div>
 
-<div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
-    <div class="clearfix">
-      Here are some more example results of our proposed work. Our algorithm generalizes to different types of staircase.
-    </div>
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result1.jpg" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result2.jpg" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result3.jpg" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result4.jpg" alt="" />
-    <img class="project_pic" style="width: 60vw; height: auto; object-fit: contain; margin: 0.5em" src="/images/bayesian_staircase/bse_result5.jpg" alt="" />
-</div> -->
 
 <div class="container3" style="display: flex; align-items: center;  flex-direction:column; margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
     <div class="clearfix" style="text-align: left; width: 100%;">
@@ -77,5 +87,3 @@ Autonomous robot navigation in complex environments requires robust perception a
             <pre><code class="language-bibtex" >{{ page.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
     </div>
 </div> 
-
-
