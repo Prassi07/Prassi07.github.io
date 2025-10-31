@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm a Ph.D. student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/){:target="_blank"}, in the Biorobotics lab. My current work focuses on mainly two things, 
+I'm a Ph.D. student at the Robotics Institute, Carnegie Mellon University. I work with [Dr. Matthew Travers](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/){:target="_blank"}, in the [Matt Lab](https://themattlab.org){:target="_blank"} and [Biorobotics lab](https://biorobotics.org){:target="_blank"}. My current work focuses on mainly two things, 
 
 - **Interaction-aware Motion Planning:** Developing algorithms that reason about robot-environment interactions to navigate realistic complex environments
 - **Uncertainty-aware Active Perception** Developing strategies for robots to actively reduce environmental uncertainty through targeted sensing actions
