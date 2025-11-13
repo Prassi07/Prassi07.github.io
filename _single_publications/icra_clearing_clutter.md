@@ -32,6 +32,16 @@ bibtex: "@article{sriganesh2025actioninformed,
     <p>For robots to operate autonomously in densely cluttered environments, they must reason about and potentially physically interact with obstacles to clear a path. Safely clearing a path on challenging terrain, such as a cluttered staircase, requires controlled interaction. However, relying solely on exteroceptive (e.g., visual) feedback for interaction is challenging, as the robot's own body may occlude the object, and sensor measurements may be noisy. In this work, we propose an "action-informed" approach that tightly couples estimation and planning for quadrupedal robots to clear clutter on staircases via "pedipulation" (i.e., manipulation with a leg). Our action-informed estimation module uses proprioceptive (e.g., foot contact) feedback during an interaction to predict the object's displacement. This prediction serves as an action-informed prior to guide the perception system, enabling robust tracking even after partial pushes or brief occlusions. This interaction-aware state estimate is used by our motion planner to decide on subsequent actions, such as re-pushing, climbing, or treating an object as immovable. We show in hardware experiments that our interaction-aware system significantly outperforms an open-loop baseline in task success rate (e.g., 85% vs 35% on one task) and tracking accuracy, generalizing to various objects and environments.</p>
 </div>
 
+<div class="container3" style="display: flex; align-items: center; flex-direction:column;  margin-bottom: 1em; border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
+    <div class="clearfix" style="text-align: center;">
+       The video below is a fun demonstration of our proposed pipeline with a Halloween theme.
+    </div>
+    <div class="youtubePlayerContainer" style="margin: 0 auto; text-align: center;">
+        {% include youtubePlayer.html id="weCLrurMnlU" %}
+    </div>
+</div>
+
+
 <div class="container2">
     <h2>Our Approach</h2>
     <div class="container3" style="display: flex; align-items: center; margin-bottom: 1em; flex-direction: column;  border: 2px solid #888; padding: 10px; border-radius: calc(0.5vw + 5px);">
