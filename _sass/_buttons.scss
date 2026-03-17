@@ -322,14 +322,14 @@
   font-size: $type-size-5;
   text-align: center;
   text-decoration: none;
-  background-color: rgba($primary-color, 0.1);
+  background-color: #eef2ff; /* Soft pastel indigo */
   border: 0 !important;
   border-radius: 50px;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 
   &:hover {
-    background-color: rgba($primary-color, 0.15);
+    background-color: #c7d2fe; /* Darker pastel indigo on hover */
     color: darken($primary-color, 15%);
     transform: translateY(-1px);
   }
@@ -457,5 +457,47 @@
 
   &--small {
     font-size: $type-size-7;
+  }
+}
+
+/* Specific Pastel Buttons */
+
+.btn-pdf {
+  @extend .btn3;
+  color: #991b1b;
+  background-color: #fee2e2; /* Soft red */
+  &:hover {
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+}
+
+.btn-github {
+  @extend .btn3;
+  color: #fff;
+  background-color: #6b7280; /* Lighter slate gray */
+  &:hover {
+    background-color: #4b5563; /* Darker slate gray for hover */
+    color: #f9fafb;
+  }
+}
+
+.btn-video {
+  @extend .btn3;
+  color: #9a3412;
+  background-color: #ffedd5; /* Soft orange */
+  &:hover {
+    background-color: #fed7aa;
+    color: #7c2d12;
+  }
+}
+
+.btn-web {
+  @extend .btn3;
+  color: #166534;
+  background-color: #dcfce7; /* Soft green */
+  &:hover {
+    background-color: #bbf7d0;
+    color: #14532d;
   }
 }

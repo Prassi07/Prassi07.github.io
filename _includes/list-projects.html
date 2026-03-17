@@ -16,11 +16,11 @@
 {% endcase %}
 
 <div class="projects" style="margin-bottom: 2rem;">
-  <article style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); border: 1px solid #f0f2f5;">
+  <article class="pastel-card">
 
-    <div class="container" style="display: flex; gap: 1.5rem; align-items: flex-start;">
-      <img class="project_pic" style="width: 250px; height: auto; object-fit: contain; border-radius: 8px; border: 1px solid #f0f2f5;" src="{{ post.imagePath }}" alt="" />
-      <div class="clearfix" style="flex: 1;">
+    <div class="container" style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
+      <img class="project_pic" style="width: 250px; min-width: 250px; height: auto; object-fit: contain; border-radius: 8px; border: 1px solid #f0f2f5;" src="{{ post.imagePath }}" alt="" />
+      <div class="clearfix" style="flex: 1; min-width: 280px;">
         {% if post.externalproj == "true" %}
           <h2 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.25rem;"> <a href="{{ post.externalLink }}" rel="permalink" target="_blank" style="color: #1e1e24; text-decoration: none;"> {{ title }} </a>  </h2>
         {% else %}
@@ -39,9 +39,9 @@
         {% endif %}
 
         {% if post.externalproj == "true" %}
-          <a href="{{ post.externalLink }}" rel="permalink" class="btn3" target="_blank">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn3" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn3" target="_blank">Videos</a> {% endif %}
+          <a href="{{ post.externalLink }}" rel="permalink" class="btn3" target="_blank">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn-video" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn-video" target="_blank">Videos</a> {% endif %}
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn3">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn3" target="_blank">Video</a> {% endif %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn3">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn-video" target="_blank">Video</a> {% endif %}
         {% endif %}
       </div>
     </div>

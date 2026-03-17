@@ -4,14 +4,31 @@ layout: default
 
 <div id="main" role="main">
 
-  <div class=".pub_archive">
-    <h1 style="text-align: center;" >{{ page.title }}</h1>
-    <h3 style="text-align: center; margin-top: 0; margin-bottom: 0.5em"> <i class="fa fa-users" aria-hidden="true"></i> {{ page.authors }} </h3>
+  <article class="pastel-card" style="margin-top: 2rem;">
+    <h1 style="text-align: center; color: #1e1e24;" >{{ page.title }}</h1>
+    <h3 style="text-align: center; margin-top: 0; margin-bottom: 0.5em; font-weight: normal;"> <i class="fa fa-users" aria-hidden="true" style="color: #1e3a8a;"></i> {{ page.authors }} </h3>
     {% if page.conference %}
-    <h3 style="text-align: center; margin-top: 0; margin-bottom: 0.5em"> <i class="fa fa-book" aria-hidden="true"> </i> <em> {{ page.conference }} </em> </h3>
+    <h3 style="text-align: center; margin-top: 0; margin-bottom: 0.5em; font-weight: normal;"> <i class="fa fa-book" aria-hidden="true" style="color: #1e3a8a;"> </i> <em> {{ page.conference }} </em> </h3>
     {% endif %}
-    {{ content }}
-    
-  </div>
+
+    <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 2rem;">
+      {% if page.paperurl %}
+        <a href="{{ page.paperurl }}" rel="permalink" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+      {% endif %}
+      {% if page.youtubeId %}
+        <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn-video" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
+      {% endif %}
+      {% if page.single %}
+        <a href="{{ base_path }}{{ page.singlelink }}" rel="permalink" class="btn-web" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
+      {% endif %}
+      {% if page.github %}
+        <a href="{{ page.github }}" rel="permalink" class="btn-github" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      {% endif %}
+    </div>
+
+    <div style="font-size: 1.05em; line-height: 1.6; color: #1e1e24;">
+      {{ content }}
+    </div>
+  </article>
 
 </div>

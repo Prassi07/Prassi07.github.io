@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  background: linear-gradient(135deg, $primary-color 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #1e3a8a 0%, #020617 100%);
   border-bottom: none;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   -webkit-animation: intro 0.3s both;
@@ -29,11 +29,12 @@
 
     a {
       text-decoration: none;
-      color: rgba(255, 255, 255, 0.9);
+      color: #ffffff; /* Bright text for contrast against dark background */
+      text-shadow: none;
       transition: color 0.2s ease-in-out;
 
       &:hover {
-        color: #ffffff;
+        color: #93c5fd;
       }
     }
   }

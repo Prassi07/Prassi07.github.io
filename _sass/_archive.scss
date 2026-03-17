@@ -38,10 +38,11 @@
     @include span(12 of 12);
   }
 
-  u{
-    a{
+  u {
+    a {
       text-decoration: none;
-      &:hover{
+
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -73,7 +74,8 @@
 
   .project-excerpt {
     margin-top: 0.25em;
-    & + p {
+
+    &+p {
       text-indent: 0;
     }
   }
@@ -91,10 +93,11 @@
     @include span(12 of 12);
   }
 
-  u{
-    a{
+  u {
+    a {
       text-decoration: none;
-      &:hover{
+
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -120,7 +123,7 @@
   color: mix(#fff, $gray, 25%);
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -129,7 +132,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -147,7 +150,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 }
@@ -155,6 +158,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
@@ -216,14 +220,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -327,5 +334,126 @@
         width: span(7 of 12);
       }
     }
+  }
+}
+
+/*
+   Pastel Cards
+   ========================================================================== */
+.pastel-card {
+  background-color: #f8faff;
+  /* Very soft cool blue/indigo tint */
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  border: 1px solid #eef2ff;
+  /* Slightly darker indigo border */
+  transition: all 0.3s ease;
+  overflow: hidden;
+  /* Forbid horiztonal layout stretching */
+  /* Responsive horizontal constraints to prevent abrupt container jump */
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+  @include breakpoint($medium) {
+    width: 100%;
+  }
+
+  &:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+    transform: translateY(-2px);
+  }
+}
+
+.welcome-img {
+  float: right;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5%;
+  margin: 0 0 1rem 1.5rem;
+
+  @include breakpoint(max-width 900px) {
+    width: 300px;
+  }
+
+  @include breakpoint(max-width 750px) {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    width: 250px;
+  }
+}
+
+.pastel-card-inner {
+  background-color: #ffffff;
+  /* Crisp white center to stand out from outer soft blue card */
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  border: 1px solid #f0f4f8;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/*
+   Marquee Showreel
+   ========================================================================== */
+.marquee-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.marquee-content {
+  display: flex;
+  /* Removed width: max-content to prevent intrinsic width blowout */
+  animation: scroll 20s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.marquee-item {
+  flex: 0 0 450px;
+  /* Fixed width, no shrink */
+  width: 450px;
+  margin-right: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background-color: #fff;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: contain;
+    /* Don't crop GIFs! */
+    background-color: #fff;
+    /* Match item background for letterboxing */
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* Scroll exactly halfway (1 set of items) */
   }
 }
