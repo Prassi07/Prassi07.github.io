@@ -64,7 +64,7 @@ $text-color                 : $darkest-gray;
 $border-color               : $lighter-gray;
 
 // $primary-color              : #7a8288;
-$primary-color              : #0a192f; // Deep Dark Navy Blue
+$primary-color              : #00265e; // Deep Dark Navy Blue
 $success-color              : #10b981; // M3 emerald
 $warning-color              : #f59e0b; // M3 amber
 $danger-color               : #ef4444; // M3 red
@@ -157,3 +157,11 @@ $box-shadow                 : 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px 
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+/*
+   Component variables
+   ========================================================================== */
+$pastel-card-bg             : #edeff9;
+$pastel-card-border         : #eef2ff;
+$pastel-card-inner-bg       : #ffffff;
+$pastel-card-inner-border   : #f0f4f8;

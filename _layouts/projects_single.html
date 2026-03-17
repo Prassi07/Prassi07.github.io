@@ -16,34 +16,32 @@ layout: default
 
 <div id="main" role="main">
 
-  <article class="page pastel-card" style="margin-top: 2rem;" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="pastel-card" style="margin-top: 2rem;" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
 
-    <div class="page__inner-wrap">
-        <header>
-        {% if page.title %}<h1 class="page__title" itemprop="headline" style="color: #1e1e24;">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+    <h1 style="text-align: center; color: #1e1e24;">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
 
-        {% if page.year %}
-          <p style="color: #4a5568;"><i class="fa fa-fw fa-calendar" aria-hidden="true" style="color: #4f46e5;"></i>{{ page.year }} &nbsp;  <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ page.project_type }} Project </p>
-        {% endif %}
-        </header>
+    {% if page.year %}
+      <h3 style="text-align: center; margin-top: 0; margin-bottom: 0.5em; font-weight: normal;">
+        <i class="fa fa-fw fa-calendar text-primary" aria-hidden="true"></i> {{ page.year }} &nbsp;  
+        <i class="fa fa-tags text-primary" aria-hidden="true"></i> {{ page.project_type }} Project 
+      </h3>
+    {% endif %}
 
-        <div style="margin-top: 1.5rem; margin-bottom: 2rem;">
-          {% if page.externalproj == "true" %}
-            <a href="{{ page.externalLink }}" rel="permalink" class="btn-web" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Project Link</a>
-          {% endif %}
-          {% if page.youtubeId %}
-            <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn-video" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
-          {% endif %}
-          {% if page.extvideos %}
-            <a href="{{ page.extvideos }}" rel="permalink" class="btn-video" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Videos</a>
-          {% endif %}
-        </div>
+    <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 2rem;">
+      {% if page.externalproj == "true" %}
+        <a href="{{ page.externalLink }}" rel="permalink" class="btn-web" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Project Link</a>
+      {% endif %}
+      {% if page.youtubeId %}
+        <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn-video" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
+      {% endif %}
+      {% if page.extvideos %}
+        <a href="{{ page.extvideos }}" rel="permalink" class="btn-video" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> Videos</a>
+      {% endif %}
+    </div>
 
-        <div style="font-size: 1.05em; line-height: 1.6; color: #1e1e24;">
-          {{ content }}
-        </div>
-
+    <div style="font-size: 1.05em; line-height: 1.6; color: #1e1e24;">
+      {{ content }}
     </div>
 
   </article>

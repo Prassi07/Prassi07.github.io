@@ -29,7 +29,7 @@ I was also running a YouTube Channel, [All About Robots]({{site.author.youtube}}
 </div>
 
 <div class="pastel-card" style="margin-bottom: 2rem; overflow: hidden; padding: 1rem 0;">
-  <h2 style="margin-top: 0; margin-bottom: 1rem; color: #1e3a8a; text-align: center;">Showreel of my Selected Research Work</h2>
+  <h2 class="text-primary" style="margin-top: 0; margin-bottom: 1rem; text-align: center;">Showreel of my Selected Research Work</h2>
   <div class="marquee-wrapper">
     <div class="marquee-content">
       <a href="/clearing-clutter-on-stairs" class="marquee-item">
@@ -56,14 +56,14 @@ I was also running a YouTube Channel, [All About Robots]({{site.author.youtube}}
 </div>
 
 <div class="pastel-card" style="margin-bottom: 2rem;" markdown="1">
-  <h2 style="margin-top: 0; margin-bottom: 1rem; color: #1e3a8a;">News & Updates</h2>
+  <h2 class="text-primary" style="margin-top: 0; margin-bottom: 1rem;">News & Updates</h2>
   <div style="max-height: 220px; overflow-y: auto; padding-right: 0.5rem;" class="news-scroll-container">
     <ul style="list-style-type: none; padding-left: 0; margin: 0;">
       {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
       {% for news in sorted_news %}
-        <li style="margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid #eef2ff; display: flex; align-items: baseline; gap: 1rem;">
-          <div style="font-size: 0.9em; font-weight: 600; color: #1e3a8a; min-width: 120px;">{{ news.date | date: "%B %d, %Y" }}</div>
-          <div style="font-size: 0.95em; color: #475569;">{{ news.description }}</div>
+        <li style="margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid #eef2ff; display: flex; align-items: flex-start; gap: 1rem;">
+          <div class="text-primary" style="font-size: 0.9em; font-weight: 600; min-width: 120px;">{{ news.date | date: "%B %d, %Y" }}</div>
+          <div style="font-size: 0.95em; color: #475569;" class="news-description">{{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}</div>
         </li>
       {% endfor %}
     </ul>

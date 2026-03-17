@@ -10,14 +10,14 @@
       <img class="publication_pic" style="width: 250px; min-width: 250px; height: auto; object-fit: contain; border: 1px solid #f0f2f5; border-radius: 8px;" src="{{ post.image }}" alt="" />
       <div class="clearfix" style="flex: 1; min-width: 280px;">
         <h2 style="margin-top: 0; margin-bottom: 0.5rem; color: #1e1e24; font-size: 1.25rem;"> {{ title }} </h2>
-        <p style="margin-bottom: 0.25rem; font-size: 0.95em;"> <i class="fa fa-users" aria-hidden="true" style="color: #1e3a8a;"></i> {{ post.authors }} </p>
-        <p style="margin-bottom: 0.5rem; font-size: 0.95em;"> <i class="fa fa-book" aria-hidden="true" style="color: #1e3a8a;"> </i> <em> {{ post.conference }} </em> </p>
+        <p style="margin-bottom: 0.25rem; font-size: 0.95em;"> <i class="fa fa-users text-primary" aria-hidden="true"></i> {{ post.authors }} </p>
+        <p style="margin-bottom: 0.5rem; font-size: 0.95em;"> <i class="fa fa-book text-primary" aria-hidden="true"> </i> <em> {{ post.conference }} </em> </p>
         {% if post.date %}
           <p class="page__date">
-            <i class="fa fa-calendar" aria-hidden="true" style="color: #1e3a8a;"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+            <i class="fa fa-calendar text-primary" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
             {% assign loc_strip = post.location | strip %}
             {% if loc_strip != '' and loc_strip != nil %}
-              <i class="fas fa-map-marker-alt" style="color: #1e3a8a; margin-left: 8px;" aria-hidden="true"></i> {{post.location}}
+              <i class="fas fa-map-marker-alt text-primary" style="margin-left: 8px;" aria-hidden="true"></i> {{post.location}}
             {% endif %}
           </p>
         {% endif %}

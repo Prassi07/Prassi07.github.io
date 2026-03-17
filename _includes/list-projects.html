@@ -18,7 +18,7 @@
 <div class="projects" style="margin-bottom: 2rem;">
   <article class="pastel-card">
 
-    <div class="container" style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
+    <div class="container" style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
       <img class="project_pic" style="width: 250px; min-width: 250px; height: auto; object-fit: contain; border-radius: 8px; border: 1px solid #f0f2f5;" src="{{ post.imagePath }}" alt="" />
       <div class="clearfix" style="flex: 1; min-width: 280px;">
         {% if post.externalproj == "true" %}
@@ -29,7 +29,7 @@
         
        
         {% if post.year %}
-         <p> <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ peri }} </p>
+         <p> <i class="fa fa-fw fa-calendar text-primary" aria-hidden="true"></i> {{ peri }} </p>
          <!--  <i class="fa fa-tags" aria-hidden="true" style="color: {{ tag_color }}"></i> {{ post.project_type }} Project -->
         {% endif %}
        

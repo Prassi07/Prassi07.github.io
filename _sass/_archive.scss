@@ -341,12 +341,12 @@
    Pastel Cards
    ========================================================================== */
 .pastel-card {
-  background-color: #f8faff;
+  background-color: $pastel-card-bg;
   /* Very soft cool blue/indigo tint */
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-  border: 1px solid #eef2ff;
+  border: 1px solid $pastel-card-border;
   /* Slightly darker indigo border */
   transition: all 0.3s ease;
   overflow: hidden;
@@ -389,12 +389,12 @@
 }
 
 .pastel-card-inner {
-  background-color: #ffffff;
+  background-color: $pastel-card-inner-bg;
   /* Crisp white center to stand out from outer soft blue card */
   border-radius: 8px;
   padding: 1.25rem;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-  border: 1px solid #f0f4f8;
+  border: 1px solid $pastel-card-inner-border;
   overflow: hidden;
   max-width: 100%;
 }
