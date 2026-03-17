@@ -3,46 +3,45 @@
 
 {% assign title = post.title %}
 
-<div class="publications">
-  <article>
+<div class="publications" style="margin-bottom: 2rem;">
+  <article style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); border: 1px solid #f0f2f5;">
 
-    <div class="container2" style="display: flex;">
-      <img class="publication_pic" style="height: auto; float: left; object-fit: contain; border-color: black;border: solid;  border-radius:2%;" src="{{ post.image }}" alt="" />
-      <div class="clearfix">
-        <h2> {{ title }} </h2>
-        <p> <i class="fa fa-users" aria-hidden="true"></i> {{ post.authors }} </p>
-        <p> <i class="fa fa-book" aria-hidden="true"> </i> <em> {{ post.conference }} </em> </p>
+    <div class="container2" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+      <img class="publication_pic" style="width: 150px; height: auto; object-fit: contain; border: 1px solid #f0f2f5; border-radius: 8px;" src="{{ post.image }}" alt="" />
+      <div class="clearfix" style="flex: 1;">
+        <h2 style="margin-top: 0; margin-bottom: 0.5rem; color: #1e1e24; font-size: 1.25rem;"> {{ title }} </h2>
+        <p style="margin-bottom: 0.25rem; font-size: 0.95em;"> <i class="fa fa-users" aria-hidden="true" style="color: #4f46e5;"></i> {{ post.authors }} </p>
+        <p style="margin-bottom: 0.5rem; font-size: 0.95em;"> <i class="fa fa-book" aria-hidden="true" style="color: #4f46e5;"> </i> <em> {{ post.conference }} </em> </p>
         {% if post.date and post.location %}
           <p class="page__date"><i class="fa fa-calendar" aria-hidden="true" ></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> <i class="fas fa-map-marker-alt" style="color: #960a0a" aria-hidden="true"></i> {{post.location}}</p>
         {% endif %}
 
         <div class="publication-buttons">
-          <button class="btn2 show-abstract" data-abstract-target="abstract-{{ forloop.index }}"><i class="fas fa-align-left" aria-hidden="true"></i> Show Abstract</button>
-          <a href="{{ post.paperurl }}" rel="permalink" class="btn2" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+          <button class="btn3 show-abstract" data-abstract-target="abstract-{{ forloop.index }}"><i class="fas fa-align-left" aria-hidden="true"></i> Show Abstract</button>
+          <a href="{{ post.paperurl }}" rel="permalink" class="btn3" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
           {% if post.youtubeId %}
-            <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
+            <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn3" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
           {% endif %}
           {% if post.single %}
-            <a href="{{ base_path }}{{ post.singlelink }}" rel="permalink" class="btn2" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
+            <a href="{{ base_path }}{{ post.singlelink }}" rel="permalink" class="btn3" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
           {% endif %}
           {% if post.github %}
-            <a href="{{ post.github }}" rel="permalink" class="btn2" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+            <a href="{{ post.github }}" rel="permalink" class="btn3" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>
           {% endif %}
-          <button class="btn2 show-bibtex" data-bibtex-target="bibtex-{{ forloop.index }}"><i class="fa fa-code" aria-hidden="true"></i> Show BibTeX</button>
+          <button class="btn3 show-bibtex" data-bibtex-target="bibtex-{{ forloop.index }}"><i class="fa fa-code" aria-hidden="true"></i> Show BibTeX</button>
         </div>
       </div>
     </div>
 
-    <div class="container2" style="display: flex; flex-direction:column;">
-      <div id="abstract-{{ forloop.index }}" class="abstract-text" style="display: none;">
+    <div class="container2" style="display: flex; flex-direction:column; margin-top: 1rem;">
+      <div id="abstract-{{ forloop.index }}" class="abstract-text" style="display: none; background-color: #f8f9fa; padding: 1rem; border-radius: 8px; font-size: 0.9em; line-height: 1.6;">
         {{ post.abstract }}
       </div>
 
-      <div id="bibtex-{{ forloop.index }}" class="bibtex-code" style="display: none;">
-        <pre><code class="language-bibtex" >{{ post.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
+      <div id="bibtex-{{ forloop.index }}" class="bibtex-code" style="display: none; background-color: #f8f9fa; padding: 1rem; border-radius: 8px; font-size: 0.85em; overflow-x: auto;">
+        <pre style="margin: 0;"><code class="language-bibtex" >{{ post.bibtex | replace: '\t', '&#09;' | replace: '\n', '<br>' }}</code></pre>
       </div>
 
     </div>
-    <hr />
- </article>
+  </article>
 </div>

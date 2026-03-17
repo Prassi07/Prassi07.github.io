@@ -15,16 +15,16 @@
     {% assign tag_color = 'darkgreen' %}
 {% endcase %}
 
-<div class="projects">
-  <article>
+<div class="projects" style="margin-bottom: 2rem;">
+  <article style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); border: 1px solid #f0f2f5;">
 
-    <div class="container" style="display: flex;">
-      <img class="project_pic" style="height: auto; float: left; object-fit: contain; border-color: black;border: solid; border-radius:2%;" src="{{ post.imagePath }}" alt="" />
-      <div class="clearfix">
+    <div class="container" style="display: flex; gap: 1.5rem; align-items: flex-start;">
+      <img class="project_pic" style="width: 250px; height: auto; object-fit: contain; border-radius: 8px; border: 1px solid #f0f2f5;" src="{{ post.imagePath }}" alt="" />
+      <div class="clearfix" style="flex: 1;">
         {% if post.externalproj == "true" %}
-          <h2> <a href="{{ post.externalLink }}" rel="permalink" target="_blank"> {{ title }} </a>  </h2>
+          <h2 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.25rem;"> <a href="{{ post.externalLink }}" rel="permalink" target="_blank" style="color: #1e1e24; text-decoration: none;"> {{ title }} </a>  </h2>
         {% else %}
-          <h2> <a href="{{ base_path }}{{ post.url }}" rel="permalink" > {{ title }} </a>  </h2>
+          <h2 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.25rem;"> <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: #1e1e24; text-decoration: none;"> {{ title }} </a>  </h2>
         {% endif %}
         
        
@@ -35,17 +35,15 @@
        
 
         {% if post.excerpt  %}
-          <p class="project-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          <p class="project-excerpt" itemprop="description" style="margin-bottom: 1rem; color: #4a5568; line-height: 1.6;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
 
         {% if post.externalproj == "true" %}
-          <a href="{{ post.externalLink }}" rel="permalink" class="btn" target="_blank">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn" target="_blank">Videos</a> {% endif %}
+          <a href="{{ post.externalLink }}" rel="permalink" class="btn3" target="_blank">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn3" target="_blank"> Video </a> {% endif %} {% if post.extvideos %} <a href="{{ post.extvideos }}" rel="permalink" class="btn3" target="_blank">Videos</a> {% endif %}
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn" target="_blank">Video</a> {% endif %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn3">Read More</a> {% if post.youtubeId %} <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn3" target="_blank">Video</a> {% endif %}
         {% endif %}
-        </div>
+      </div>
     </div>
-
-    <hr />
   </article>
 </div>

@@ -35,8 +35,7 @@
   }
 
   @include breakpoint($larger) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include span(12 of 12);
   }
 
   u{
@@ -69,8 +68,7 @@
   }
 
   @include breakpoint($larger) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include span(12 of 12);
   }
 
   .project-excerpt {
@@ -90,8 +88,7 @@
   }
 
   @include breakpoint($larger) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include span(12 of 12);
   }
 
   u{
