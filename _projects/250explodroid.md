@@ -9,13 +9,16 @@ year: "May 2017 - Jul 2018"
 project_type: "Internship"
 ---
 
-This robot was built as part of the internship work conducted in Microsoft Innovation Lab. The robot was inspired by the [TurtleBot](https://www.turtlebot.com/){:target="_blank"}, mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
-<img src="/images/explodroid.JPG" style="border-radius:2%" />
+<div class="pastel-card-inner" style="margin-bottom: 2rem;">
+This robot was built as part of the internship work conducted in Microsoft Innovation Lab. The robot was inspired by the <a href="https://www.turtlebot.com/" target="_blank">TurtleBot</a>, mainly to serve as an cost-effective substitute. The robot runs on Robot Operating System(ROS) and is equipped with different sensors. 
+
+<img src="/images/explodroid.JPG" style="border-radius: 8px; width: 100%; max-width: 500px; display: block; margin: 1rem auto;" />
+</div>
 
 
- <div class="container3" style="display: flex; align-items: flex-start">
-    <div class="clearfix">
-     <ul style="padding-inline-start: 1.5em">
+<div class="pastel-card-inner" style="display: flex; align-items: center; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1.5rem;">
+    <div class="clearfix" style="flex: 1; min-width: 250px;">
+     <ul style="padding-inline-start: 1.5em; margin: 0;">
         <li> The robot uses a xbox Kinect RGB-D camera to sense the environment. </li>
         <li> The robot using differential drive mechanism to move around. The motors are equipped with encoders to provide postion feedback. </li>
         <li> The robot uses an Intel NUC as the on board computer which runs ROS and performs SLAM </li>
@@ -23,11 +26,17 @@ This robot was built as part of the internship work conducted in Microsoft Innov
         <li> Performed autonomous navigation to a target point on the map using Adaptive Monte Carlo Localization </li>
      </ul>
     </div>
-    <img class="project_pic" style="width: 300px; height: auto; float: left; object-fit: contain; border-radius:2%" src="/images/exploRenders.png" alt="" />
+    <img class="project_pic" style="width: 300px; height: auto; object-fit: contain; border-radius: 8px;" src="/images/exploRenders.png" alt="" />
 </div>
 
-You can find the ROS packages and the dxf files for the chasis on [github](https://github.com/Prassi07/ExploDroid_Package){:target="_blank"}. This project was featured in an article written by [EdexLive](https://www.edexlive.com/live-story/2017/aug/30/these-1040.html){:target="_blank"}
+<div class="pastel-card-inner" style="margin-bottom: 2rem;">
+You can find the ROS packages and the dxf files for the chasis on <a href="https://github.com/Prassi07/ExploDroid_Package" target="_blank">github</a>. This project was featured in an article written by <a href="https://www.edexlive.com/live-story/2017/aug/30/these-1040.html" target="_blank">EdexLive</a>.
 
-The team consisted of three interns including me, [Manoj Surya K](https://sites.google.com/view/manojsuryakashi){:target="_blank"} and [Tarun Sriram](https://www.linkedin.com/in/tarun-sriram-3b584b177/){:target="_blank"}
+The team consisted of three interns including me, <a href="https://sites.google.com/view/manojsuryakashi" target="_blank">Manoj Surya K</a> and <a href="https://www.linkedin.com/in/tarun-sriram-3b584b177/" target="_blank">Tarun Sriram</a>.
+</div>
 
-{% include youtubePlayer.html id=page.youtubeId %}
+<div class="pastel-card-inner" style="display: flex; align-items: center; flex-direction:column; margin-bottom: 2rem;">
+    <div class="youtubePlayerContainer" style="margin: 0 auto; text-align: center;">
+        {% include youtubePlayer.html id=page.youtubeId %}
+    </div>
+</div>

@@ -14,14 +14,14 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 $times                      : "Times New Roman", sans-serif;
-$arial                      : "Arial", sans-serif;
+$arial                      : "Inter", "Arial", sans-serif;
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : "Inter", Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -50,11 +50,11 @@ $type-size-8                : 0.625em;  // ~10px
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$darkest-gray               : mix(#000, $gray, 85%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$dark-gray                  : mix(#000, $gray, 30%);
+$darker-gray                : mix(#000, $gray, 50%);
+$darkest-gray               : #1e1e24; // Deeper modern dark 
+$light-gray                 : #f0f2f5; // Modern softer gray
+$lighter-gray               : #f8f9fa;
 
 $body-color                 : #fff;
 $background-color           : #fff;
@@ -64,11 +64,11 @@ $text-color                 : $darkest-gray;
 $border-color               : $lighter-gray;
 
 // $primary-color              : #7a8288;
-$primary-color              : $darker-gray;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #1772d0;
+$primary-color              : #00265e; // Deep Dark Navy Blue
+$success-color              : #10b981; // M3 emerald
+$warning-color              : #f59e0b; // M3 amber
+$danger-color               : #ef4444; // M3 red
+$info-color                 : #2563eb; // M3 blue (lighter navy for links)
 $black                      : #000000;
 
 /* brands */
@@ -152,8 +152,16 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 12px;
+$box-shadow                 : 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
+$global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+/*
+   Component variables
+   ========================================================================== */
+$pastel-card-bg             : #edeff9;
+$pastel-card-border         : #eef2ff;
+$pastel-card-inner-bg       : #ffffff;
+$pastel-card-inner-border   : #f0f4f8;

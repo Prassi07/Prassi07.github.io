@@ -175,17 +175,26 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: transparent;
 
   a {
     display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
-    color: $masthead-link-color;
+    margin: 0 0.25rem;
+    padding: 0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    &.active {
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.25);
     }
   }
 
@@ -196,9 +205,14 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: transparent;
     color: #fff;
     cursor: pointer;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
   }
 
   .visible-links {
@@ -223,30 +237,7 @@
       }
     }
 
-    a {
-      position: relative;
 
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
-      }
-    }
   }
 
   .hidden-links {
@@ -264,10 +255,12 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      color: $text-color;
+      border-radius: 0;
 
       &:hover {
-        color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        color: $primary-color;
+        background: $lighter-gray;
       }
     }
 
