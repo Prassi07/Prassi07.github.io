@@ -1,7 +1,7 @@
 ---
 title: "Action-Informed Estimation and Planning: Clearing Clutter on Staircases via Quadrupedal Pedipulation"
 authors: "<b>Prasanna Sriganesh</b>, Barath Satheeshkumar, Anushree Sabnis and Matthew Travers"
-conference: 'arXiv'
+conference: 'Accpeted to IEEE Internation Conference on Robotics and Automation (IRCA) 2026'
 
 paperurl: 'https://arxiv.org/abs/2509.20516'
 youtubeId: 'CTss0FFHwNU'
