@@ -7,7 +7,7 @@ paperurl: 'https://arxiv.org/abs/2503.00647'
 youtubeId: '1pH-PkcRVZg'
 image: '/images/cap_coverage.png'
 
-location: ''
+location: 'Hangzhou, China'
 date: 2025-10-19
 
 bibtex: "@inproceedings{shen2025cap,
