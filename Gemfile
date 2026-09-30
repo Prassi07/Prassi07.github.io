@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+require_relative "_plugins/ruby_compatibility"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -10,13 +11,13 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data', platforms: [:windows]
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
 
-gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", platforms: [:windows]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -28,3 +29,7 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "mutex_m"

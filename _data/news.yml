@@ -1,5 +1,31 @@
-- date: 2026-02-01
-  description: "Our [paper](/clearing-clutter-on-stairs) on clearing cluttered staircases using quadruped pedipulation is accepted to [ICRA 2026](https://2026.ieee-icra.org/)!"
+- date: 2026-08-15
+  badge: "NEW"
+  description: "Honored to be awarded the **Uber Presidential Fellowship** at the Robotics Institute, Carnegie Mellon University for AY 2026–2027!"
 
-# - date: 2023-08-30
-#   description: "Started as a Ph.D. student at the Robotics Institute, Carnegie Mellon University."
+- date: 2026-09-27
+  badge: "NEW"
+  description: "Co-organizing the IROS 2026 workshop on [\"Rethinking Uncertainty for Modern Robotics Paradigms\"](https://rethinking-uncertainty.github.io/){:target=\"_blank\"} in Pittsburgh, PA!"
+
+- date: 2026-05-18
+  description: "Interning at [Multiply Labs](https://www.multiplylabs.com/){:target=\"_blank\"} for Summer 2026, working with [Dr. Jiuguang Wang](https://www.robo.guru/){:target=\"_blank\"} on uncertainty-aware manipulation tasks."
+
+- date: 2026-02-01
+  description: "Our paper [\"Action-Informed Estimation and Planning: Clearing Clutter on Staircases via Quadrupedal Pedipulation\"](/clearing-clutter-on-stairs) is accepted to [ICRA 2026](https://2026.ieee-icra.org/)!"
+
+- date: 2025-09-15
+  description: "Demonstrated our quadrupedal pedipulation and clutter clearing system live at the **DARPA TIAMAT PI Meeting** at University of Maryland, College Park"
+
+- date: 2025-08-14
+  description: "The Matt Lab team won the [**Best Academic/Research Institute Technology Demonstration Award**](https://themattlab.org/news/2025-08-16-gvsets_demo/){:target=\"_blank\"} at [GVSETS 2025](https://www.ndia-mich.org/events/gvsets){:target=\"_blank\"} for our heterogeneous multi-robot collaborative autonomy stack!"
+
+- date: 2025-03-10
+  description: "Our paper [\"A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases\"](/bayesian-staircase-estimation) is accepted to **IEEE Robotics and Automation Letters (RA-L)**!"
+
+- date: 2023-08-28
+  description: "Started as a Ph.D. student at the Robotics Institute, Carnegie Mellon University, advised by Dr. Matthew Travers."
+
+- date: 2023-01-30
+  description: "Our paper [\"Fast Staircase Detection and Estimation using 3D Point Clouds with Multi-detection Merging for Heterogeneous Robots\"](/fast-staircase-detection) is accepted to [ICRA 2023](https://www.icra2023.org/)!"
+
+- date: 2021-08-23
+  description: "Started my Master of Science in Robotics (MSR) program at Carnegie Mellon University."

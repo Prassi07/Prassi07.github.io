@@ -4,15 +4,16 @@ permalink: "/clearing-clutter-on-stairs"
 
 title: "Action-Informed Estimation and Planning: Clearing Clutter on Staircases via Quadrupedal Pedipulation"
 authors: '<b>Prasanna Sriganesh</b>, Barath Satheeshkumar, Anushree Sabnis and Matthew Travers'
-conference:  'Accepted to IEEE International Conference on Robotics and Automation (ICRA) 2026'
+conference:  'IEEE International Conference on Robotics and Automation (ICRA) 2026'
 
 paperurl: 'https://arxiv.org/abs/2509.20516'
 youtubeId: 'CTss0FFHwNU'
 # github: 'https://github.com/Prassi07/staircase_autonomy' 
-bibtex: "@article{sriganesh2025actioninformed,
+bibtex: "@inproceedings{sriganesh2026actioninformed,
   \n \t  title={Action-Informed Estimation and Planning: Clearing Clutter on Staircases via Quadrupedal Pedipulation},
   \n \t author={Prasanna Sriganesh and Barath Satheeshkumar and Anushree Sabnis and Matthew Travers},
-  \n \t year={2025},
+  \n \t booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  \n \t year={2026}
 }"
 
 ---
