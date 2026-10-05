@@ -472,6 +472,16 @@
   }
 }
 
+.btn-arxiv {
+  @extend .btn3;
+  color: #b31b1b;
+  background-color: #ffe4e6; /* Soft rose / arXiv red */
+  &:hover {
+    background-color: #fecdd3;
+    color: #881337;
+  }
+}
+
 .btn-github {
   @extend .btn3;
   color: #fff;

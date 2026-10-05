@@ -24,7 +24,14 @@
 
         <div class="publication-buttons">
           <button class="btn3 show-abstract" data-abstract-target="abstract-{{ forloop.index }}"><i class="fas fa-align-left" aria-hidden="true"></i> Show Abstract</button>
-          <a href="{{ post.paperurl }}" rel="permalink" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+          {% if post.paperurl %}
+            {% if post.arxiv == nil or post.paperurl != post.arxiv %}
+              <a href="{{ post.paperurl }}" rel="permalink" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+            {% endif %}
+          {% endif %}
+          {% if post.arxiv %}
+            <a href="{{ post.arxiv }}" rel="permalink" class="btn-arxiv" target="_blank"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
+          {% endif %}
           {% if post.youtubeId %}
             <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn-video" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
           {% endif %}

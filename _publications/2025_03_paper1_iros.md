@@ -3,7 +3,8 @@ title: "CAP: A Connectivity-Aware Hierarchical Coverage Path Planning Algorithm 
 authors: "Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b> and Matthew Travers"
 conference: '2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
 
-paperurl: 'https://arxiv.org/abs/2503.00647'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11247648'
+arxiv: 'https://arxiv.org/abs/2503.00647'
 youtubeId: '1pH-PkcRVZg'
 image: '/images/cap_coverage.png'
 

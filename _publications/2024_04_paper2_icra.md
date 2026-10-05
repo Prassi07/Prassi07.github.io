@@ -4,6 +4,7 @@ authors: '<b>Prasanna Sriganesh</b>, James Maier, Adam Johnson, Burhanuddin Shir
 conference: 'IEEE ICRA Workshop on Field Robotics 2024'
 
 paperurl: 'https://arxiv.org/abs/2404.17759'
+arxiv: 'https://arxiv.org/abs/2404.17759'
 # youtubeId: 'DO114mELokw'
 image: '/images/frcarch_icra.png'
 

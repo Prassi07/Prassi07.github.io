@@ -4,6 +4,7 @@ authors: "Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, Bhaskar
 conference: 'arXiv'
 
 paperurl: 'https://arxiv.org/abs/2509.14941'
+arxiv: 'https://arxiv.org/abs/2509.14941'
 youtubeId: 'cp83SsG9wjY'
 image: '/images/multicap_coverage.png'
 

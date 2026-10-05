@@ -6,7 +6,8 @@ title: "Action-Informed Estimation and Planning: Clearing Clutter on Staircases 
 authors: '<b>Prasanna Sriganesh</b>, Barath Satheeshkumar, Anushree Sabnis and Matthew Travers'
 conference:  'IEEE International Conference on Robotics and Automation (ICRA) 2026'
 
-paperurl: 'https://arxiv.org/abs/2509.20516'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11696107'
+arxiv: 'https://arxiv.org/abs/2509.20516'
 youtubeId: 'CTss0FFHwNU'
 # github: 'https://github.com/Prassi07/staircase_autonomy' 
 bibtex: "@inproceedings{sriganesh2026actioninformed,

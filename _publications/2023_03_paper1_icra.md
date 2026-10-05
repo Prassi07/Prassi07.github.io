@@ -3,7 +3,8 @@ title: "Longitudinal Control Volumes: A Novel Centralized Estimation and Control
 authors: 'James Maier, <b>Prasanna Sriganesh</b> and Matthew Travers'
 conference: '2024 IEEE International Conference on Robotics and Automation (ICRA)'
 
-paperurl: 'https://arxiv.org/abs/2402.02232'
+paperurl: 'https://ieeexplore.ieee.org/document/10611225'
+arxiv: 'https://arxiv.org/abs/2402.02232'
 youtubeId: 'zHBTYLz28O0'
 image: '/images/superconv_icra.jpg'
 

@@ -7,6 +7,7 @@ authors: '<b>Prasanna Sriganesh</b>, Namya Bagree, Bhaskar Vundurthy and Matthew
 conference: '2023 IEEE International Conference on Robotics and Automation (ICRA)'
 
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10160258'
+arxiv: 'https://arxiv.org/abs/2211.00610'
 youtubeId: '-QbWmr-CmYI'
 youtubeId2: '6-V9mmfgTmQ'
 image: '/images/staircase_icra.jpg'

@@ -7,6 +7,7 @@ authors: '<b>Prasanna Sriganesh</b>, Burhanunddin Shirose and Matthew Travers'
 conference:  'IEEE Robotics and Automation Letters (RA-L) 2025'
 
 paperurl: 'https://ieeexplore.ieee.org/document/10918822'
+arxiv: 'https://arxiv.org/abs/2501.04170'
 youtubeId: '8baHgQ_rGLs'
 github: 'https://github.com/Prassi07/staircase_autonomy' 
 bibtex: "@article{sriganesh2025bayesian,

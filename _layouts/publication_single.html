@@ -13,7 +13,12 @@ layout: default
 
     <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 2rem;">
       {% if page.paperurl %}
-        <a href="{{ page.paperurl }}" rel="permalink" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+        {% if page.arxiv == nil or page.paperurl != page.arxiv %}
+          <a href="{{ page.paperurl }}" rel="permalink" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></i> Full Paper</a>
+        {% endif %}
+      {% endif %}
+      {% if page.arxiv %}
+        <a href="{{ page.arxiv }}" rel="permalink" class="btn-arxiv" target="_blank"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
       {% endif %}
       {% if page.youtubeId %}
         <a href="https://youtu.be/{{ page.youtubeId }}" rel="permalink" class="btn-video" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
