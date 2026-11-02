@@ -11,7 +11,8 @@
       <div class="clearfix" style="flex: 1; min-width: 280px;">
         <h2 style="margin-top: 0; margin-bottom: 0.5rem; color: #1e1e24; font-size: 1.25rem;"> {{ title }} </h2>
         <p style="margin-bottom: 0.25rem; font-size: 0.95em;"> <i class="fa fa-users text-primary" aria-hidden="true"></i> {{ post.authors }} </p>
-        <p style="margin-bottom: 0.5rem; font-size: 0.95em;"> <i class="fa fa-book text-primary" aria-hidden="true"> </i> <em> {{ post.conference }} </em> </p>
+        {% assign conf_lower = post.conference | downcase | strip %}
+        <p style="margin-bottom: 0.5rem; font-size: 0.95em;"> <i class="fa fa-book text-primary" aria-hidden="true"> </i> <em> {% if conf_lower == 'arxiv' %}Pre-print{% else %}{{ post.conference }}{% endif %} </em> </p>
         {% if post.date %}
           <p class="page__date">
             <i class="fa fa-calendar text-primary" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
@@ -35,8 +36,10 @@
           {% if post.youtubeId %}
             <a href="https://youtu.be/{{ post.youtubeId }}" rel="permalink" class="btn-video" target="_blank" ><i class="fab fa-youtube" aria-hidden="true"></i> Video</a>
           {% endif %}
-          {% if post.single %}
-            <a href="{{ base_path }}{{ post.singlelink }}" rel="permalink" class="btn-web" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
+          {% if post.website %}
+            <a href="{{ post.website }}" rel="permalink" class="btn-web" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
+          {% elsif post.single %}
+            <a href="{% if post.singlelink contains '://' %}{{ post.singlelink }}{% else %}{{ base_path }}{{ post.singlelink }}{% endif %}" rel="permalink" class="btn-web" target="_blank" ><i class="fa fa-link" aria-hidden="true"></i> Website</a>
           {% endif %}
           {% if post.github %}
             <a href="{{ post.github }}" rel="permalink" class="btn-github" target="_blank" ><i class="fab fa-github" aria-hidden="true"></i> Code</a>

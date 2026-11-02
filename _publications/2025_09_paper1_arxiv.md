@@ -1,7 +1,7 @@
 ---
 title: "Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments"
 authors: "Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, Bhaskar Vundurthy, Howie Choset, and Matthew Travers"
-conference: 'arXiv'
+conference: 'Pre-print'
 
 paperurl: 'https://arxiv.org/abs/2509.14941'
 arxiv: 'https://arxiv.org/abs/2509.14941'
